@@ -1,0 +1,101 @@
+import type { ProjectMeta } from "@/content/types";
+
+/** Display order. Copy for each slug lives in `en.ts` / `ar.ts`. */
+export const projectMeta: ProjectMeta[] = [
+  {
+    slug: "comply360",
+    kind: "featured",
+    orgKey: "expanders360",
+    start: "2026-01",
+    end: "present",
+    stack: ["Angular 22", "Nx", "Signals", "RxJS", "TypeScript", "SSR", "SEO / GEO"],
+    links: [
+      { kind: "live", href: "https://client.comply360.tech/auth/sign-in" },
+      { kind: "site", href: "https://comply360.tech/" },
+    ],
+    parts: [
+      {
+        id: "comply360",
+        name: "Comply360",
+        contribution: "core",
+        links: [
+          { kind: "site", href: "https://comply360.tech/" },
+          { kind: "live", href: "https://client.comply360.tech/auth/sign-in" },
+        ],
+      },
+      {
+        id: "360-technologies",
+        name: "360 ecosystem",
+        contribution: "core",
+        links: [{ kind: "site", href: "https://360-technologies.com/en/" }],
+      },
+      {
+        id: "signals360",
+        name: "Signals360",
+        contribution: "core",
+        links: [{ kind: "preview", href: "https://dev.signals360.tech/" }],
+      },
+      {
+        id: "belvro-wealth",
+        name: "Belvro Wealth",
+        contribution: "contribution",
+        links: [{ kind: "site", href: "https://belvrowealth.com/" }],
+      },
+    ],
+  },
+  {
+    slug: "epath-erp",
+    kind: "featured",
+    orgKey: "skyapps",
+    start: "2025-10",
+    end: "present",
+    stack: ["Angular 21", "NgRx", "ECharts", "Tailwind CSS", "ngx-translate", "Vitest"],
+    links: [{ kind: "demo", href: "https://demo.skyapps.me/" }],
+  },
+  {
+    slug: "skyapps-website",
+    kind: "featured",
+    orgKey: "skyapps",
+    start: "2026-09",
+    end: "present",
+    stack: ["Next.js 16", "React 19", "next-intl", "Tailwind CSS", "Static export"],
+    links: [{ kind: "site", href: "https://website.skyapps.me/" }],
+  },
+  {
+    slug: "leen",
+    kind: "featured",
+    orgKey: "personal",
+    start: "2026-10",
+    end: "present",
+    stack: ["NestJS 11", "Prisma", "PostgreSQL", "Redis", "Next.js 15", "TanStack Query", "Turborepo"],
+    links: [],
+    badge: "private",
+  },
+  {
+    slug: "etolv-tourism-erp",
+    kind: "earlier",
+    orgKey: "etolv",
+    start: "2022-10",
+    end: "2024-08",
+    stack: ["Angular 8 → 19", "TypeScript", "RxJS", "Python"],
+    links: [],
+  },
+  {
+    slug: "film-sa-red-sea",
+    kind: "earlier",
+    orgKey: "next",
+    start: "2024-08",
+    end: "2025-12",
+    stack: ["Angular 18–19", "SCSS", "Animations"],
+    links: [],
+  },
+  {
+    slug: "daem-spi-hwadi",
+    kind: "earlier",
+    orgKey: "next",
+    start: "2024-08",
+    end: "2025-12",
+    stack: ["Angular 18–19", "SSR", "NgRx", "Chart.js", "ECharts"],
+    links: [],
+  },
+];

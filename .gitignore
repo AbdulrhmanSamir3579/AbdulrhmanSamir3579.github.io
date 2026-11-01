@@ -1,0 +1,24 @@
+# Secrets & local overrides (never commit keys)
+mcp-config*.json
+.env
+.env.local
+.env*.local
+
+# OS
+.DS_Store
+
+# Next.js app (web/)
+web/node_modules/
+web/.next/
+web/out/
+web/build/
+web/.vercel
+web/*.tsbuildinfo
+web/npm-debug.log*
+web/yarn-debug.log*
+web/yarn-error.log*
+web/pnpm-debug.log*
+
+# Screenshot tool (captures are reviewed in .tmp, then published into web/public/portfolio)
+tools/screenshots/node_modules/
+tools/screenshots/.tmp/

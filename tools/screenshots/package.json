@@ -1,0 +1,13 @@
+{
+  "name": "portfolio-screenshots",
+  "private": true,
+  "type": "module",
+  "description": "Captures project screenshots into web/public/portfolio. Never installed in CI.",
+  "scripts": {
+    "capture": "node capture.mjs"
+  },
+  "dependencies": {
+    "playwright": "1.63.0",
+    "sharp": "0.35.4"
+  }
+}
