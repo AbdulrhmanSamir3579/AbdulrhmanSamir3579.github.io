@@ -47,7 +47,7 @@ export const en = {
     eyebrow: "About",
     headline: "A senior frontend engineer who understands the business behind the screens.",
     paragraphs: [
-      "I’m Abdulrahman, a Senior Frontend Engineer based in Cairo. I’ve worked with Angular from v8 to v22 — Signals, NgRx, RxJS, SSR and Nx monorepos — and today I own the frontend architecture of a five-product SaaS suite and lead its frontend team through architecture, code review and mentoring.",
+      "I’m Abdulrahman, a Senior Frontend Engineer based in Cairo. I’ve worked with Angular from v8 to v22 — Signals, NgRx, RxJS, SSR and Nx monorepos — and today I'm the main engineer on a five-product SaaS suite, where I also review and merge the team's pull requests.",
       "Most of my work sits in domains where details matter: accounting and ERP finance, compliance, and government platforms. I like learning the domain well enough to model it properly — journal entries, approval chains, audit history, jurisdiction rules — instead of just drawing the forms.",
       "On the backend I build with Node.js — NestJS and Express, REST and WebSockets, Prisma on PostgreSQL — so I can deliver a feature end to end when the roadmap needs it. I build in Arabic and English, with RTL as a first-class layout rather than an afterthought.",
     ],
@@ -69,17 +69,17 @@ export const en = {
       },
       {
         name: "Proficient",
-        items: "React, Next.js (SSR/SSG), Zustand, Redux, Tailwind CSS",
+        items: "React, Next.js (SSR/SSG, static export), next-intl, TanStack Query, Tailwind CSS",
       },
       {
         name: "Data & integrations",
         items:
-          "PostgreSQL, SQL Server, MongoDB, Redis · payment gateways (Stripe, multi-gateway) · storage APIs (AWS S3, Google Cloud Storage, Google Drive) · Firebase, JWT auth, Google Maps",
+          "PostgreSQL, Redis + BullMQ · payments (Stripe, Paymob) · Server-Sent Events · JWT auth · Google Maps and OpenStreetMap",
       },
       {
         name: "Testing, delivery & performance",
         items:
-          "Jasmine, Karma, Cypress, Vitest · GitHub Actions, Docker · Lighthouse / Core Web Vitals, code splitting, lazy loading, WCAG, SEO & GEO/AEO",
+          "Vitest, Jest, Playwright · GitHub Actions, Docker · zoneless + OnPush, code splitting, lazy loading · Lighthouse and axe audits, SEO & GEO/AEO",
       },
     ],
     domain: {
@@ -93,7 +93,7 @@ export const en = {
         },
         {
           title: "Data visualization",
-          body: "Themeable chart systems on Chart.js, ECharts, ApexCharts and D3 — reusable across products, not one-off widgets.",
+          body: "Themeable chart systems on Chart.js, ECharts and Recharts, plus maps and 3D globes — reusable across products, not one-off widgets.",
         },
         {
           title: "Configuration-driven architecture",
@@ -118,7 +118,7 @@ export const en = {
         },
         {
           name: "Working knowledge",
-          detail: ".NET Core with Entity Framework, and Jenkins. I can read and contribute; I don’t present them as production specialties.",
+          detail: ".NET Core with Entity Framework. I can read and contribute; I don’t present it as a production specialty.",
         },
       ],
     },
@@ -133,7 +133,7 @@ export const en = {
         location: "Egypt",
         roles: ["Senior Frontend Engineer"],
         highlights: [
-          "Main engineer on the suite's Angular 22 Nx monorepo — Comply360, Expand360, Signals360, Masar and Belvro — and lead of a two-engineer frontend team.",
+          "Main engineer on the suite's Angular 22 Nx monorepo — Comply360, Expand360, Signals360, Masar and Belvro — and the reviewer who merges the team's pull requests.",
           "Upgraded the workspace to Angular 22, zoneless with OnPush everywhere, and built the shared flow engine, component library and form infrastructure.",
           "Shipped Comply360's access layer, compliance workspace, Stripe billing and real-time notifications.",
           "Built and deployed the bilingual 360 ecosystem site with SEO and generative-engine optimization (JSON-LD, hreflang, llms.txt).",
@@ -158,7 +158,7 @@ export const en = {
           "Built much of the travel portal's reservations, Umrah, hotel, transport and incoming-tourism modules, plus customer invoices and proformas.",
           "Built the accounting app's invoicing, tax-authority e-invoicing and e-receipts, supplier payments, trial balance and P&L rework, and year-end closure.",
           "Moved modules to the new portal and added a shared reference-data cache.",
-          "Promoted to senior; mentored two engineers.",
+          "Promoted to senior frontend developer.",
         ],
       },
     },
@@ -397,7 +397,7 @@ export const en = {
           ],
         },
       ],
-      outcome: "Promoted to senior and mentored two engineers. The portal and the accounting app are in production — the screenshots are from a demo account of the new portal, with staff names blurred.",
+      outcome: "Promoted to senior. The portal and the accounting app are in production — the screenshots are from a demo account of the new portal, with staff names blurred.",
     },
     "film-sa-red-sea": {
       title: "Film SA & Red Sea",
