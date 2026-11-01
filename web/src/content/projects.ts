@@ -8,7 +8,7 @@ export const projectMeta: ProjectMeta[] = [
     orgKey: "expanders360",
     start: "2026-01",
     end: "present",
-    stack: ["Angular 22", "Nx", "Signals", "RxJS", "TypeScript", "SSR", "SEO / GEO"],
+    stack: ["Angular 22", "Nx", "Zoneless + OnPush", "Signal Forms", "TypeScript 6", "Stripe", "Playwright"],
     links: [
       { kind: "suite", href: "https://360-technologies.com/en/" },
       { kind: "live", href: "https://client.comply360.tech/auth/sign-in" },
@@ -48,9 +48,9 @@ export const projectMeta: ProjectMeta[] = [
     slug: "epath-erp",
     kind: "featured",
     orgKey: "skyapps",
-    start: "2025-10",
+    start: "2025-12",
     end: "present",
-    stack: ["Angular 21", "NgRx", "ECharts", "Tailwind CSS", "ngx-translate", "Vitest"],
+    stack: ["Angular 21", "NgRx", "Signals", "ECharts", "Tailwind CSS", "ngx-translate", "Vitest"],
     links: [{ kind: "demo", href: "https://demo.skyapps.me/" }],
   },
   {
@@ -59,7 +59,7 @@ export const projectMeta: ProjectMeta[] = [
     orgKey: "skyapps",
     start: "2026-09",
     end: "present",
-    stack: ["Next.js 16", "React 19", "next-intl", "Tailwind CSS", "Static export"],
+    stack: ["Next.js 16", "React 19", "next-intl", "Tailwind CSS", "Static export", "JSON-LD"],
     links: [{ kind: "site", href: "https://website.skyapps.me/" }],
   },
   {
@@ -68,7 +68,7 @@ export const projectMeta: ProjectMeta[] = [
     orgKey: "personal",
     start: "2026-10",
     end: "present",
-    stack: ["NestJS 11", "Prisma", "PostgreSQL", "Redis", "Next.js 15", "TanStack Query", "Turborepo"],
+    stack: ["NestJS 11", "Prisma", "PostgreSQL", "Redis + BullMQ", "Next.js 15", "TanStack Query", "Turborepo"],
     links: [],
     badge: "private",
   },
@@ -77,8 +77,8 @@ export const projectMeta: ProjectMeta[] = [
     kind: "earlier",
     orgKey: "etolv",
     start: "2022-10",
-    end: "present",
-    stack: ["Angular 8 → 18", "TypeScript", "RxJS", "Chart.js", "Python"],
+    end: "2024-08",
+    stack: ["Angular 8 · 11 · 18", "TypeScript", "RxJS", "PrimeNG", "Chart.js"],
     links: [{ kind: "live", href: "https://portal.etolv.net/newportal/login" }],
   },
   {
@@ -87,7 +87,7 @@ export const projectMeta: ProjectMeta[] = [
     orgKey: "next",
     start: "2024-08",
     end: "2025-12",
-    stack: ["Angular 18–19", "Angular Animations", "SCSS"],
+    stack: ["Angular 18–19", "Angular Animations", "JWT", "SCSS"],
     links: [],
   },
   {
@@ -96,7 +96,7 @@ export const projectMeta: ProjectMeta[] = [
     orgKey: "next",
     start: "2024-08",
     end: "2025-12",
-    stack: ["Angular 18–19", "SSR", "NgRx", "Chart.js", "ECharts"],
+    stack: ["Angular 18–19", "SSR", "Chart.js", "ECharts", "NgRx", "globe.gl"],
     links: [],
   },
 ];

@@ -31,7 +31,8 @@ function ProjectCover({ title, org }: { title: string; org: string }) {
   );
 }
 
-export function ProjectCard({ project }: { project: ProjectCardView }) {
+/** `wide` is the flagship layout: spans the grid, gallery beside the text on large screens. */
+export function ProjectCard({ project, wide = false }: { project: ProjectCardView; wide?: boolean }) {
   const reduce = useReducedMotion();
   const { ui } = useLocale();
   const articleRef = useRef<HTMLElement>(null);
@@ -50,13 +51,18 @@ export function ProjectCard({ project }: { project: ProjectCardView }) {
   const media = project.media.filter((m) => m.device === "desktop").slice(0, 6);
 
   return (
-    <PointerGlow className="h-full min-h-0 w-full rounded-[var(--radius-bento)]">
+    <PointerGlow className={`h-full min-h-0 w-full rounded-[var(--radius-bento)] ${wide ? "md:col-span-2" : ""}`}>
       <motion.article
         ref={articleRef}
         variants={cardTheater(!!reduce)}
-        className="glass-card flex h-full min-h-0 flex-col overflow-hidden rounded-[inherit] shadow-lg"
+        className={`glass-card flex h-full min-h-0 flex-col overflow-hidden rounded-[inherit] shadow-lg ${
+          wide ? "lg:grid lg:grid-cols-[1.45fr_1fr]" : ""
+        }`}
       >
-        <motion.div className="will-change-transform" style={{ y: mediaY }}>
+        <motion.div
+          className={`will-change-transform ${wide ? "lg:self-center lg:border-e lg:border-[var(--card-border)]" : ""}`}
+          style={{ y: wide ? 0 : mediaY }}
+        >
           {media.length ? (
             <ProjectMediaGallery title={project.title} media={media} />
           ) : (
@@ -64,7 +70,7 @@ export function ProjectCard({ project }: { project: ProjectCardView }) {
           )}
         </motion.div>
 
-        <div className="flex flex-1 flex-col p-6 md:p-7">
+        <div className={`flex flex-1 flex-col p-6 md:p-7 ${wide ? "lg:justify-center lg:p-9" : ""}`}>
           <div className="flex flex-wrap items-center gap-2 text-xs font-medium text-[var(--muted)]">
             <span>{project.org}</span>
             <span aria-hidden>·</span>

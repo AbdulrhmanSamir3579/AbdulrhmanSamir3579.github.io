@@ -19,7 +19,7 @@ export const en = {
     eyebrow: "Portfolio · Senior Frontend Engineer",
     title: "Enterprise products, from the first screen to the API",
     lead:
-      "I specialize in enterprise ERP, FinTech and analytics platforms across LegalTech, GovTech and Tourism. I own frontend architecture in Angular, build production backends in NestJS when the product needs it, and keep public sites at 100 on Lighthouse.",
+      "I specialize in enterprise ERP, FinTech and analytics platforms across LegalTech, GovTech and Tourism. I own frontend architecture in Angular, build production backends in NestJS when the product needs it, and treat performance, accessibility and SEO as part of the job.",
     ctaWork: "See selected work",
     ctaContact: "Contact",
     panelKicker: "What I focus on",
@@ -38,7 +38,7 @@ export const en = {
       {
         title: "Quality you can measure",
         detail:
-          "100 Lighthouse scores, Core Web Vitals, accessibility, and SEO plus generative-engine optimization for AI search.",
+          "Lighthouse and accessibility audits, Core Web Vitals, and SEO plus generative-engine optimization for AI search.",
       },
     ],
     panelLink: "View skills",
@@ -133,10 +133,10 @@ export const en = {
         location: "Egypt",
         roles: ["Senior Frontend Engineer"],
         highlights: [
-          "Own the frontend architecture of a five-product SaaS suite — Comply360, Expand360, Signals360, Masar and Belvro — in one Angular 22 Nx monorepo, and lead a two-engineer frontend team.",
-          "Architected the suite’s configuration-driven wizard, dynamic-flow and templating engine.",
-          "Built the shared authentication framework, component library and form infrastructure every app consumes.",
-          "Sustain 100 Lighthouse scores and implement SEO plus generative-engine optimization (GEO/AEO).",
+          "Main engineer on the suite's Angular 22 Nx monorepo — Comply360, Expand360, Signals360, Masar and Belvro — and lead of a two-engineer frontend team.",
+          "Upgraded the workspace to Angular 22, zoneless with OnPush everywhere, and built the shared flow engine, component library and form infrastructure.",
+          "Shipped Comply360's access layer, compliance workspace, Stripe billing and real-time notifications.",
+          "Built and deployed the bilingual 360 ecosystem site with SEO and generative-engine optimization (JSON-LD, hreflang, llms.txt).",
         ],
       },
       next: {
@@ -144,10 +144,10 @@ export const en = {
         location: "Cairo, Egypt",
         roles: ["Senior Frontend Engineer"],
         highlights: [
-          "Architected frontend infrastructure for eight AI-powered GovTech platforms serving Saudi government agencies and enterprise clients.",
-          "Delivered design-intensive public platforms, including Film SA and Red Sea.",
-          "Built a Node.js file-processing service for 1 GB+ resumable uploads behind one storage abstraction for AWS S3, Google Cloud Storage and Google Drive.",
-          "Standardized analytics dashboards on a unified, themeable data-visualization system.",
+          "Lead contributor on the Film SA cash-rebate admin — the permission-driven workflow from application review to rebate payout.",
+          "Built DAEM's Entertainment sector module, financial benchmarking and extractor, and the DAEM – Qiyas compliance platform for the Human Resources Development Fund.",
+          "Built the Hwadi executive strategy dashboard alone, on a reusable Chart.js engine.",
+          "Also delivered interfaces for Red Sea, Momah, Saudi WC and DT Requirements.",
         ],
       },
       etolv: {
@@ -155,9 +155,9 @@ export const en = {
         location: "Giza, Egypt",
         roles: ["Frontend Developer", "Senior Frontend Developer"],
         highlights: [
-          "Architected a tourism ERP for travel agencies across MENA — accounting, CRM, CMS and Hajj/Umrah booking.",
-          "Built the ERP’s financial core: multi-gateway payments, automated invoicing, reconciliation and audit trails.",
-          "Led an 18-month Angular v8 → v18 migration, rebuilding 50+ components.",
+          "Built much of the travel portal's reservations, Umrah, hotel, transport and incoming-tourism modules, plus customer invoices and proformas.",
+          "Built the accounting app's invoicing, tax-authority e-invoicing and e-receipts, supplier payments, trial balance and P&L rework, and year-end closure.",
+          "Moved modules to the new portal and added a shared reference-data cache.",
           "Promoted to senior; mentored two engineers.",
         ],
       },
@@ -185,144 +185,283 @@ export const en = {
     comply360: {
       title: "Comply360 & the 360 suite",
       org: "Expanders 360",
-      role: "Senior Frontend Engineer · frontend architecture owner",
-      summary:
-        "A five-product SaaS suite for market expansion, compliance and economic intelligence — one Angular 22 Nx monorepo, with Comply360 as the core product.",
-      problem:
-        "Companies entering a new market face licensing, legal-structure, tax and regulatory requirements that differ by country, city and jurisdiction. The suite turns that into guided, step-by-step flows — and has to do it across five products without each one rebuilding its own forms, auth and dashboards.",
+      role: "Senior Frontend Engineer · main engineer on the suite",
+      summary: "A five-product SaaS suite for market expansion, compliance and economic intelligence — one Angular 22 Nx monorepo where I'm the main engineer, with Comply360 as the core product.",
+      problem: "Companies entering a new market face licensing, legal-structure, tax and regulatory requirements that differ by country, city and jurisdiction. Five products had to turn that into guided workflows without each one rebuilding its own forms, access control and dashboards.",
       built: [
-        "Own the frontend architecture: one Angular 22 Nx monorepo sharing UI, networking and feature libraries across Comply360, Expand360, Signals360, Masar and Belvro.",
-        "Architected the configuration-driven wizard, dynamic-flow and templating engine — new multi-step flows and forms ship as configuration, not code, in every product.",
-        "Built Comply360’s guided journey: pick a market, describe the business, and get a jurisdiction-specific compliance roadmap and readiness score.",
-        "Established the shared authentication framework, component library and form infrastructure.",
-        "Built Signals360’s dashboards on a themeable, scalable data-visualization architecture.",
-        "Keep the public sites at 100 on Lighthouse, with SEO plus generative-engine optimization (GEO/AEO).",
+        {
+          title: "Architecture & platform",
+          items: [
+            "Main engineer on the suite's Angular/Nx monorepo — about two-thirds of the commits on main across nine apps.",
+            "Upgraded the workspace to Angular 22 and TypeScript 6, made all seven apps zoneless with OnPush change detection everywhere, and reorganized it into product-scoped libraries with Nx scope and type tags.",
+            "Wrote the engineering standards as code and docs: unified error handling, validation and i18n gates, plus about 50 architecture docs (flow runner, drawers, data lists, API contracts, billing, deployment).",
+            "Set up CI/CD: production deploy workflows per app, a new staging environment, and a Playwright end-to-end harness.",
+          ],
+        },
+        {
+          title: "Flow engine & component library",
+          items: [
+            "Built the shared flow engine — a contract-driven question runner with repeaters, record pickers, searchable trees, document uploads, rejected-answer handling, auto-retry and server-owned progress — that powers Comply360's incorporation and compliance journeys.",
+            "Built the component and template library: five pixel-perfect Figma templates (dashboard, data list, record detail, tabbed record, wizard) plus about 30 workspace templates such as case review, document workspace, ownership graph and report builder.",
+            "Built the form infrastructure: a config-driven table, one unified select for lazy, paginated and catalog data, form templates on Angular Signal Forms, and stacked deep-linkable drawers that keep the page's filters and scroll.",
+          ],
+        },
+        {
+          title: "Comply360",
+          items: [
+            "Built the client and admin apps from scratch: email OTP sign-in, registration and email verification, invitations, workspace selection and company onboarding.",
+            "Built the compliance workspace: companies (people, licences, fees, cases), a document vault and permit workspace, locations, branches, premises and assets with a 5-step branch wizard and map picker, an obligations table and a compliance calendar.",
+            "Built case-document review for admins — accept or reject each document with reasons and lifecycle states.",
+            "Shipped billing end to end: an admin plan catalog with immutable versions, offers and access links, and Stripe checkout with trials, prorated upgrades, scheduled downgrades and invoices.",
+            "Built the access layer: IAM users and invites, subject-access grants, and route, sidebar and action gating driven by the backend's access API.",
+            "Built real-time notifications: a durable inbox in a bell popup with live Server-Sent Events, plus admin configuration and monitoring.",
+          ],
+        },
+        {
+          title: "Shared plumbing",
+          items: [
+            "One shared HTTP interceptor across the apps, a 429/5xx retry interceptor with backoff, a central API contract and error classifier, and pages that recover after a token refresh.",
+            "Arabic and English with RTL in every app, a locale-aware date picker, and an i18n checker that keeps about 1,600 shared keys in sync.",
+          ],
+        },
+        {
+          title: "The rest of the suite",
+          items: [
+            "Expand360: company-incorporation steps, fee estimates with payment and progress tracking for clients; laws, fees, licences, providers, service rates, quotations and orders for admins; single sign-on through the shared IAM.",
+            "Signals360: extended the chart builder with interactive filters, an x-axis slicer, mixed bar-and-line charts, bilingual labels, Excel date parsing and bulk chart creation.",
+            "360 ecosystem site: built and deployed it solo — a statically prerendered bilingual Angular site with motion directives, JSON-LD, hreflang, a sitemap and llms.txt for search and AI discoverability.",
+            "Belvro Wealth: scaffolded its Nx workspace (website, client and admin apps with shared core and UI libraries) and set up its nine deploy pipelines.",
+            "Masar: set up its three Angular 21 apps — an SSR landing site, an investor and startup portal, and an admin — with production deploys.",
+          ],
+        },
       ],
-      outcome:
-        "One codebase, one design language and one flow engine behind every product in the suite. A new workflow is a configuration change instead of a new set of screens.",
+      outcome: "One codebase, one design language and one flow engine behind every product in the suite. New workflows ship as configuration, and every app shares the same access, error-handling and i18n standards.",
       partCopy: {
-        comply360: {
-          summary:
-            "Compliance intelligence for market entry: jurisdiction mapping, licensing, legal structure and tax requirements, a readiness score and a step-by-step roadmap.",
-        },
-        "360-technologies": {
-          summary:
-            "The umbrella site for the ecosystem — expansion, compliance and intelligence for multinationals, investment groups and government-linked entities.",
-        },
-        signals360: {
-          summary:
-            "Economic intelligence for Egypt: new-company signals, sector performance, regional indicators and investment opportunities in interactive dashboards.",
-        },
-        "belvro-wealth": {
-          summary:
-            "Arabic-first financial advisory platform — website, client app and admin. I contributed to its Angular frontend inside the same Nx workspace.",
-        },
+        comply360: { summary: "Compliance intelligence for market entry: jurisdiction mapping, licensing, legal structure and tax requirements, guided by the flow engine." },
+        "360-technologies": { summary: "The umbrella site for the ecosystem — expansion, compliance and intelligence for multinationals, investment groups and government-linked entities. I built and deployed it solo." },
+        signals360: { summary: "Economic intelligence for Egypt: new-company signals, sector performance, regional indicators and investment opportunities. I extended its chart builder." },
+        "belvro-wealth": { summary: "Arabic-first financial advisory platform. I scaffolded its Nx workspace and set up its deploy pipelines; most feature screens were built by a teammate." },
       },
     },
     "epath-erp": {
       title: "ePath — SkyApps cloud ERP",
       org: "SkyApps",
-      role: "Lead frontend engineer",
-      summary:
-        "A modern Angular 21 rebuild of a cloud accounting ERP — finance, sales, inventory, purchasing and system administration, in Arabic and English.",
-      problem:
-        "An established accounting ERP needed a modern frontend: dense financial screens, multi-stage approvals and full auditability, rebuilt without losing the domain rules accountants depend on.",
+      role: "Main frontend engineer",
+      summary: "A bilingual (Arabic/English) cloud accounting ERP rebuilt in Angular 21 and NgRx — finance, tax, purchasing, inventory and administration. I'm its main frontend engineer.",
+      problem: "An established accounting ERP needed a modern frontend: dense financial screens, multi-stage approvals and full auditability, rebuilt without losing the domain rules accountants depend on.",
       built: [
-        "Journal-entry management with multi-stage approval workflows.",
-        "Line-level audit history that tracks edited, added and deleted revisions across accounts and partners.",
-        "A shared component library, including a configurable smart table and an ECharts-based chart component.",
-        "NgRx state (store, effects, entity) across the finance, sales, inventory, purchasing and systems modules.",
-        "Bilingual Arabic/English UI with ngx-translate and Tailwind CSS, tested with Vitest.",
+        {
+          title: "Finance & tax",
+          items: [
+            "Built the double-entry finance core: chart of accounts and cost centers as trees, branch and bank accounts, partners, opening balances, and fiscal years with periods in the Gregorian or Hijri calendar.",
+            "Built the full journal lifecycle: entries with metadata and journal types, an approvals screen with bulk unapprove, bulk posting with partial-success handling, quick two-line entries and automatic tax lines.",
+            "Built receipt and expense vouchers with foreign-currency and exchange-rate handling, linked to their journal entries.",
+            "Built the tax engine end to end — codes, rates, registrations, return schemes with a formula editor, tax returns with PDF export and tax transactions — and wired it into journals, item groups and purchase bills.",
+            "Built the ledger report, trial balance and account statement, with filters and links back to source documents.",
+          ],
+        },
+        {
+          title: "Purchasing & inventory",
+          items: [
+            "Built purchasing from requisition to payment: RFQs with a quote comparison matrix and award, purchase orders, goods receipts, purchase bills with a 3-way match and override, posting and payment, and purchase returns with linked documents.",
+            "Built about 13 inventory screens: items with kits, units and variants, item groups as trees, warehouses and bins, stock documents and counts, movements, balances, cost layers and reorder rules.",
+          ],
+        },
+        {
+          title: "Administration & access",
+          items: [
+            "Built the systems module: organization, branches, departments, currencies, banks, exchange rates, coding patterns, users and permission groups — with route guards and a permission check on every row action.",
+          ],
+        },
+        {
+          title: "Shared platform",
+          items: [
+            "Designed a library of about 47 shared components: a smart table with server pagination, saved columns and filters, a dual Gregorian/Hijri date picker, a searchable tree, map and account pickers, and server-fed selects.",
+            "Built line-level audit history — added and removed rows, previous values, revision replay and restore — used across finance and systems.",
+            "Set the CRUD page standard — one base component with add, edit, view, history and list modes, permission-aware actions and server validation errors on the right field — and applied it to about 80 screens.",
+            "Structured state with NgRx (about 64 feature slices with entity adapters and effects), with Arabic/English and RTL across about 4,100 translation keys kept in parity, on the SkyApps Figma design system.",
+            "Wrote the API contracts and module guides that shaped the backend work for purchasing, the chart builder, partners and exchange rates.",
+          ],
+        },
       ],
-      outcome:
-        "I’m the primary contributor to the rebuild. It runs today as the SkyApps ERP, with a public demo environment.",
+      outcome: "I wrote about three-quarters of the codebase's commits. The rebuilt ERP runs today as SkyApps, with a public demo.",
     },
     "skyapps-website": {
       title: "SkyApps website",
       org: "SkyApps",
       role: "Sole developer",
-      summary:
-        "The Arabic-first marketing site for the SkyApps AI-powered cloud ERP, built from Figma in Next.js 16.",
-      problem:
-        "The ERP needed a fast, search-friendly sales site in Arabic and English, with content the marketing team can update without a developer.",
+      summary: "The Arabic-first marketing site for the SkyApps cloud ERP — built solo from Figma in Next.js 16, from the first commit to production indexing in about six weeks.",
+      problem: "The ERP needed a fast, search-friendly sales site in Arabic and English, with content the marketing team can update without a developer.",
       built: [
-        "Pixel-accurate implementation of the Figma design — Arabic-first RTL with a full English version (next-intl).",
-        "Static export, with content managed from a CRM admin.",
-        "An AI assistant chat widget.",
-        "Automated visual-diff, accessibility, SEO, responsive and Lighthouse checks.",
+        {
+          title: "Site & content",
+          items: [
+            "Built 11 pages from Figma — home (hero, sectors, showcase, assistant, pricing, testimonials), about, pricing with plan comparison and FAQ, sectors, solutions, partners, contact, blog and legal pages.",
+            "Arabic at the root and English under /en with next-intl, an accessible language switch, and a lint rule that enforces RTL-safe CSS.",
+            "Turned the SkyApps CRM into a headless CMS: content is pulled at build time over the repo's copy, with fallbacks and a version stamp so a CRM edit is picked up by the next build.",
+            "Built lead capture that needs no server: the contact and demo forms post straight to the CRM with its validation rules, a honeypot, field-level errors, rate-limit handling and UTM data.",
+            "Added a chat widget with suggested questions that guides visitors to book a demo.",
+          ],
+        },
+        {
+          title: "Delivery & quality",
+          items: [
+            "Shipped it as a static export to Apache, with locale flattening and a responsive image pipeline.",
+            "SEO: hreflang, JSON-LD (organization, website, software application with offers, breadcrumbs, FAQ), a CRM-driven sitemap and robots, and Google Tag Manager with Consent Mode.",
+            "Built a Figma-to-code pipeline with pixel-diff visual regression per page section, plus Lighthouse, axe accessibility, responsive, SEO and form test runners.",
+            "Measured 100 for accessibility, best practices and SEO, and 99 for desktop performance, in Lighthouse.",
+          ],
+        },
       ],
-      outcome: "Shipped solo, from design handoff to production.",
+      outcome: "Shipped solo, from design handoff to an indexed production site.",
     },
     leen: {
       title: "Leen — tutoring-center platform",
       org: "Personal product",
       role: "Founder & full-stack engineer",
-      summary:
-        "A multi-tenant SaaS for running tutoring centers: scheduling, QR attendance, exams, finance and a parent portal — in Arabic and English.",
-      problem:
-        "Tutoring centers juggle schedules, attendance, payments and parent communication across paper, spreadsheets and chat groups.",
+      summary: "A multi-tenant SaaS for running tutoring centers: scheduling, QR attendance, exams, finance and a parent portal — in Arabic and English.",
+      problem: "Tutoring centers juggle schedules, attendance, payments and parent communication across paper, spreadsheets and chat groups.",
       built: [
-        "Turborepo monorepo with a NestJS 11 API (about 35 modules), Prisma (57 models), PostgreSQL 16 and Redis.",
-        "Next.js 15 web app (60+ pages) with TanStack Query, Tailwind CSS and next-intl — Arabic RTL and English, light and dark.",
-        "Roles and subscription plans, QR-code attendance, exams, a schedule calendar, finance and reports.",
-        "A parent portal and a public page for every center.",
+        {
+          title: "Platform",
+          items: [
+            "Turborepo monorepo: a NestJS 11 API with Swagger, Prisma on PostgreSQL (57 models), Redis with BullMQ, and a Next.js 15 web app — all started with one command.",
+            "Multi-tenant access: phone login, JWT, 20+ granular permissions shared by the API and UI, five default roles, custom roles on the top plan, and people who switch between several centers.",
+            "Subscription plans with per-plan features, and a super-admin console for centers, plans, trials and feature overrides.",
+          ],
+        },
+        {
+          title: "Running a center",
+          items: [
+            "Academic setup from education presets (Egyptian national, Al-Azhar, IGCSE, American) with stages, grades, subjects and year-end promotion.",
+            "A scheduling engine with conflict detection — hard blocks for teacher and room clashes, warnings for students and working hours — and a drag-and-drop weekly calendar.",
+            "Center finance: charges and payments with automatic allocation, receipts, reversals, overdue tracking, cash close, expenses, teacher contracts and payroll, P&L, discounts and installments.",
+            "QR and barcode attendance that keeps scanning offline, plus make-up sessions and absences.",
+            "Exams: a question bank, an exam maker with printable papers, and online exams with automatic grading.",
+          ],
+        },
+        {
+          title: "Families & growth",
+          items: [
+            "A tokenized parent portal with online payment, HMAC-signed monthly reports, and notifications over WhatsApp, SMS and Telegram through BullMQ.",
+            "A public page for every center with its open groups and bookings that feed a leads CRM, plus card payments through Paymob.",
+            "An honor board with points and certificates, at-risk student detection, homework, a teacher's daily view and a student portal.",
+            "Reports with KPIs and CSV export, Arabic and English with RTL, and light, dark and auto themes.",
+          ],
+        },
       ],
-      outcome:
-        "Designed and built end to end by me — architecture, data model, API and UI.",
+      outcome: "Designed and built end to end by me — architecture, data model, API and UI — plus the launch material: the rebrand, an Arabic sales brochure and competitor research.",
       note: "Private product — screenshots are from a local build with seeded demo data.",
     },
     "etolv-tourism-erp": {
       title: "Tourism ERP — Trio Travel",
       org: "ETOLV",
       role: "Frontend Developer → Senior Frontend Developer",
-      summary:
-        "A tourism ERP for travel agencies across MENA — accounting, CRM, reservations, HR and Hajj/Umrah — and its new Angular portal, which I helped upgrade and build.",
-      problem:
-        "Travel agencies run bookings, pilgrim groups, suppliers and accounting in one system — the financial records have to stay exact while the booking workflows keep growing.",
+      summary: "A tourism ERP for travel agencies across MENA — reservations, Hajj and Umrah, hotels, transport, accounting and tax e-invoicing — across the original portal, the accounting app and the new Angular portal.",
+      problem: "Travel agencies run bookings, pilgrim groups, suppliers and accounting in one system — the financial records have to stay exact while the booking workflows keep growing.",
       built: [
-        "Architected the platform’s frontend across the accounting, CRM, CMS and Hajj/Umrah booking modules.",
-        "Upgraded the portal from Angular 8 to the new Angular 18 portal and built many of its modules: the analytics home, reservations and reports, Hajj & Umrah trips, HR and statistics — and kept contributing after 2024.",
-        "Built the financial core: multi-gateway payments, automated invoicing, real-time reconciliation and audit trails.",
-        "Designed an HR system from the ground up: payroll calculation, attendance tracking and compliance reporting for a 500+ employee organization.",
-        "Led the 18-month Angular v8 → v18 migration, rebuilding 50+ components with a performance-first architecture.",
-        "Automated localization across eight languages with a Python + Google Translate pipeline.",
+        {
+          title: "Reservations & travel operations",
+          items: [
+            "Built much of the reservations engine: option bookings and ticket workflows, per-ticket currency rates, reissue profit, refund and void pricing, supplier fees and service charges.",
+            "Built customer documents: reservation, visa and transportation proforma invoices with VAT before and after, a KSA-format invoice, and flight invoices and credit notes.",
+            "Umrah: trip and room reports, a client-payment report, Excel import of reservations, and the Umrah contract with its print.",
+            "Hotels: a children-policy module in hotel pricing, selling prices by market and day, room calculations for hotel contracts, and Excel import and export.",
+            "Transportation: operation orders, timetables, odometer readings, commissions, driver tips and a vehicles report.",
+            "Incoming tourism: guide, restaurant and sightseeing vouchers and payment orders, plus booking reports with filters and Excel export.",
+          ],
+        },
+        {
+          title: "Accounting & tax",
+          items: [
+            "Built invoicing: invoice types with credit and debit notes, per-line VAT and discounts, templates, receipts from invoices and an invoice account statement.",
+            "Integrated tax-authority e-invoicing and POS e-receipts: sending, bulk send, returns, error handling and GS1/EGS item codes.",
+            "Built the supplier-payment workflow with VAT, withholding tax, commissions, reverse calculations, server-side pagination and prints.",
+            "Reworked the trial balance (tree and group views, opening balances, currency filter, Excel), rewrote profit and loss, and added financial-year closure, treasury reports and ledger prints.",
+            "Built vouchers and ledger operations: keyboard-driven receipts and payments, exchange entries, cheques, payment orders, and a new currency-inventory (cash count) module.",
+          ],
+        },
+        {
+          title: "Platform",
+          items: [
+            "Moved modules from the Angular 8 portal to Portal 4 and retired the old booking module (about 46k lines).",
+            "Added a shared cache for about 25 reference datasets, used by reports and payment forms.",
+            "Arabic and English throughout, with RTL prints.",
+          ],
+        },
+        {
+          title: "The new portal (Angular 18)",
+          items: [
+            "Built modules for the new portal: HR attendance, Umrah trips with buses, contracts and Hajj, a rebuilt reservations flow, accounting reconciliation and cheque templates.",
+            "Worked on its Angular/PrimeNG upgrade with OnPush performance work, a shared listing-page library, and Arabic, English and French translations.",
+          ],
+        },
       ],
-      outcome:
-        "Promoted to senior and mentored two engineers. The new portal and the accounting app are live in production — screenshots are from a demo account, with staff names blurred.",
+      outcome: "Promoted to senior and mentored two engineers. The portal and the accounting app are in production — the screenshots are from a demo account of the new portal, with staff names blurred.",
     },
     "film-sa-red-sea": {
       title: "Film SA & Red Sea",
       org: "NEXT & Associates",
-      role: "Senior Frontend Engineer",
-      summary:
-        "Design-intensive platforms for Saudi clients — the Film SA cash-rebate program and the Red Sea portal.",
-      problem:
-        "High-visibility public platforms with demanding design systems, plus a cash-rebate program whose applications need structured review and evaluation.",
+      role: "Senior Frontend Engineer · lead contributor on Film SA",
+      summary: "Film SA's cash-rebate admin — the workflow that reviews and pays out production incentives — and the Red Sea Global analysis portal.",
+      problem: "Every cash-rebate application has to be reviewed, scored, awarded and paid out through a controlled multi-stage workflow, with different roles acting at each step.",
       built: [
-        "The Film SA cash-rebate admin (Angular 18) for reviewing and evaluating applications — I was its lead contributor.",
-        "Pixel-perfect, animation-rich Angular implementations of complex design systems.",
-        "The Red Sea Global analysis portal (Angular 19): a partnerships explorer where cards expand on hover and open detail views through Angular page-transition animations.",
+        {
+          title: "Film SA cash-rebate admin",
+          items: [
+            "Built the app from an empty repository: structure, routing, admin layout, navigation and the dashboard home (request progress, performance leaderboard, task bucket).",
+            "Built the permission-driven request workflow: one stepper takes each application from arrival through review, evaluation, requested documents, incentive awarding, progress reports, disbursement documents, rebate evaluation and payout — with steps shown by program type and permission.",
+            "Built application review across about 15 sections (company, bank, project, cast, crew, script, budget, financing, locations…) with one-section-at-a-time loading and caching, status and remark modals, and a summary PDF.",
+            "Built the cash-rebate evaluation: project and financial details, local and international scoring, evaluation reports and expenditure export.",
+            "Built the rebate evaluation almost alone: line-by-line approval of expenses, payroll and wages with comments, completion percentages and final approval.",
+            "Built incentive awarding (agreements), the progress-report tracker, disbursement documents, and the Talent & Crew module (lists, block and unblock, profiles, statistics).",
+            "Built auth and the HTTP layer — JWT login with stored permissions, token and error interceptors, a role guard — and a shared component set (stepper, accordion, filters, dynamic modals, status buttons).",
+          ],
+        },
+        {
+          title: "Red Sea Global portal",
+          items: [
+            "Set up the Angular 19 base: layouts, routes, auth guard, token interceptor and Arabic/English.",
+            "Built the Partnerships explorer: cards that expand on hover and open detail views through Angular page-transition animations.",
+          ],
+        },
       ],
-      outcome:
-        "Both shipped as flagship work for the studio’s Saudi clients. The Red Sea screens and video are from a local build of the frontend.",
+      outcome: "Lead contributor on the Film SA admin, which runs the program's review and payout workflow. The Red Sea screens and video are from a local build of the frontend.",
     },
     "daem-spi-hwadi": {
       title: "DAEM & Hwadi",
       org: "NEXT & Associates",
-      role: "Senior Frontend Engineer",
-      summary:
-        "GovTech platforms for Saudi government entities: the DAEM platform and the Hwadi strategy dashboard.",
-      problem:
-        "Government teams needed secure portals and analytics dashboards that share one consistent, themeable visual language.",
+      role: "Senior Frontend Engineer · lead contributor",
+      summary: "AI-powered GovTech analytics for Saudi clients — the DAEM platform and its compliance spin-offs — and Hwadi, an executive strategy dashboard I built alone.",
+      problem: "Government and enterprise leaders needed sector intelligence, compliance tracking and executive dashboards that read the same way across products.",
       built: [
-        "DAEM (SPI) platform frontend in Angular 18 with server-side rendering — I was its lead contributor.",
-        "Hwadi strategy dashboard (Angular 19, Chart.js), built solo: external-environment analysis plus executive dashboards for the chairman, group CEO, CFO, PMO and executive director.",
-        "A unified, themeable data-visualization system (Chart.js, ECharts, ApexCharts) used across the studio’s platforms.",
-        "An enterprise component library — authentication, complex data tables and dynamic form builders.",
-        "An NgRx caching layer to cut redundant API traffic.",
+        {
+          title: "DAEM platform",
+          items: [
+            "Built the Entertainment sector module almost alone: an overview with CAGR, benchmarks, global trends, government direction, demographics on a map, X sentiment analysis and a world events calendar.",
+            "Built financial benchmarking (country map, comparison view) and financial analysis, on chart-configuration services I wrote for line, multi-line, stacked and horizontal charts.",
+            "Built the extractor and archiver — drag-and-drop financial-statement uploads with live progress — plus the landing page, a stock-exchange page with a 3D globe, and the project-management module.",
+            "Added text-to-speech reading with the Web Speech API for the virtual advisor and the financial pages.",
+          ],
+        },
+        {
+          title: "DAEM – Qiyas & DT Requirements",
+          items: [
+            "DAEM – Qiyas, an AI compliance platform for the Human Resources Development Fund: built the DGA requirements module, the compliance report with PDF export, and the extractor with chunked uploads and AI-analysis status.",
+            "Built its home with department performance and task assignment, auth with permission and role pipes, the issue modal and the notifications panel.",
+            "Split DT Requirements out of DAEM into its own app, with color-coded compliance levels, file import and an auto-refreshing processing status.",
+          ],
+        },
+        {
+          title: "Hwadi (sole author)",
+          items: [
+            "Built the whole Hwadi dashboard: external-environment analysis and executive dashboards for the chairman, group CEO, CEO, CFO, PMO and directors.",
+            "Built a reusable chart engine on Chart.js — line, bar, doughnut, stacked and combo charts with a shared palette and responsive font sizing — and widgets for cash, customer and vendor balances, budget versus actual, project P&L and resource utilization.",
+            "Also built the users module of the Hwadi super-admin with NgRx, a reusable data table and signals-based auth.",
+          ],
+        },
       ],
-      outcome:
-        "Each new platform started from shared, working infrastructure instead of a blank repository. The Hwadi screens and video are from a local build with its built-in sample data.",
+      outcome: "Each platform started from patterns that already worked — charts, auth, uploads and tables — instead of a blank repository. The Hwadi screens and video are from a local build with its built-in sample data.",
     },
   },
   ui: {

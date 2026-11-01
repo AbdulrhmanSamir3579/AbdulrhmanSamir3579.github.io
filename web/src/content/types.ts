@@ -32,6 +32,8 @@ export type MediaAsset = {
   scheme: "light" | "dark";
   /** Comply360 suite: which part the shot belongs to */
   part?: string;
+  /** Address shown in the gallery's browser bar ("local build" for local captures) */
+  host?: string;
   thumb?: string;
 };
 
@@ -64,7 +66,8 @@ export type ProjectCopy = {
   role: string;
   summary: string;
   problem: string;
-  built: string[];
+  /** Grouped so long contribution lists stay scannable on the case page */
+  built: { title: string; items: string[] }[];
   outcome: string;
   note?: string;
   /** Copy for `ProjectMeta.parts`, keyed by part id */

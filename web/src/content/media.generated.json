@@ -8,7 +8,8 @@
       "device": "desktop",
       "scheme": "light",
       "part": "comply360",
-      "thumb": "/portfolio/comply360/comply-home-desktop-light-thumb.webp"
+      "thumb": "/portfolio/comply360/comply-home-desktop-light-thumb.webp",
+      "host": "comply360.tech"
     },
     {
       "id": "comply-home-mobile-light",
@@ -18,27 +19,41 @@
       "device": "mobile",
       "scheme": "light",
       "part": "comply360",
-      "thumb": "/portfolio/comply360/comply-home-mobile-light-thumb.webp"
+      "thumb": "/portfolio/comply360/comply-home-mobile-light-thumb.webp",
+      "host": "comply360.tech"
     },
     {
-      "id": "comply-flow-desktop-light",
-      "src": "/portfolio/comply360/comply-flow-desktop-light.webp",
+      "id": "comply-capabilities-desktop-light",
+      "src": "/portfolio/comply360/comply-capabilities-desktop-light.webp",
       "width": 1600,
       "height": 1000,
       "device": "desktop",
       "scheme": "light",
       "part": "comply360",
-      "thumb": "/portfolio/comply360/comply-flow-desktop-light-thumb.webp"
+      "thumb": "/portfolio/comply360/comply-capabilities-desktop-light-thumb.webp",
+      "host": "comply360.tech"
     },
     {
-      "id": "comply-roadmap-desktop-light",
-      "src": "/portfolio/comply360/comply-roadmap-desktop-light.webp",
+      "id": "comply-pricing-desktop-light",
+      "src": "/portfolio/comply360/comply-pricing-desktop-light.webp",
       "width": 1600,
       "height": 1000,
       "device": "desktop",
       "scheme": "light",
       "part": "comply360",
-      "thumb": "/portfolio/comply360/comply-roadmap-desktop-light-thumb.webp"
+      "thumb": "/portfolio/comply360/comply-pricing-desktop-light-thumb.webp",
+      "host": "comply360.tech"
+    },
+    {
+      "id": "comply-about-desktop-light",
+      "src": "/portfolio/comply360/comply-about-desktop-light.webp",
+      "width": 1600,
+      "height": 1000,
+      "device": "desktop",
+      "scheme": "light",
+      "part": "comply360",
+      "thumb": "/portfolio/comply360/comply-about-desktop-light-thumb.webp",
+      "host": "comply360.tech"
     },
     {
       "id": "comply-signin-desktop-light",
@@ -48,7 +63,8 @@
       "device": "desktop",
       "scheme": "light",
       "part": "comply360",
-      "thumb": "/portfolio/comply360/comply-signin-desktop-light-thumb.webp"
+      "thumb": "/portfolio/comply360/comply-signin-desktop-light-thumb.webp",
+      "host": "client.comply360.tech"
     },
     {
       "id": "eco-home-desktop-light",
@@ -58,7 +74,8 @@
       "device": "desktop",
       "scheme": "light",
       "part": "360-technologies",
-      "thumb": "/portfolio/comply360/eco-home-desktop-light-thumb.webp"
+      "thumb": "/portfolio/comply360/eco-home-desktop-light-thumb.webp",
+      "host": "360-technologies.com"
     },
     {
       "id": "eco-home-mobile-light",
@@ -68,17 +85,30 @@
       "device": "mobile",
       "scheme": "light",
       "part": "360-technologies",
-      "thumb": "/portfolio/comply360/eco-home-mobile-light-thumb.webp"
+      "thumb": "/portfolio/comply360/eco-home-mobile-light-thumb.webp",
+      "host": "360-technologies.com"
     },
     {
-      "id": "eco-products-desktop-light",
-      "src": "/portfolio/comply360/eco-products-desktop-light.webp",
+      "id": "eco-ar-desktop-light",
+      "src": "/portfolio/comply360/eco-ar-desktop-light.webp",
       "width": 1600,
       "height": 1000,
       "device": "desktop",
       "scheme": "light",
       "part": "360-technologies",
-      "thumb": "/portfolio/comply360/eco-products-desktop-light-thumb.webp"
+      "thumb": "/portfolio/comply360/eco-ar-desktop-light-thumb.webp",
+      "host": "360-technologies.com"
+    },
+    {
+      "id": "eco-journey-desktop-light",
+      "src": "/portfolio/comply360/eco-journey-desktop-light.webp",
+      "width": 1600,
+      "height": 1000,
+      "device": "desktop",
+      "scheme": "light",
+      "part": "360-technologies",
+      "thumb": "/portfolio/comply360/eco-journey-desktop-light-thumb.webp",
+      "host": "360-technologies.com"
     },
     {
       "id": "signals-home-desktop-light",
@@ -88,7 +118,8 @@
       "device": "desktop",
       "scheme": "light",
       "part": "signals360",
-      "thumb": "/portfolio/comply360/signals-home-desktop-light-thumb.webp"
+      "thumb": "/portfolio/comply360/signals-home-desktop-light-thumb.webp",
+      "host": "dev.signals360.tech"
     },
     {
       "id": "signals-home-mobile-light",
@@ -98,17 +129,19 @@
       "device": "mobile",
       "scheme": "light",
       "part": "signals360",
-      "thumb": "/portfolio/comply360/signals-home-mobile-light-thumb.webp"
+      "thumb": "/portfolio/comply360/signals-home-mobile-light-thumb.webp",
+      "host": "dev.signals360.tech"
     },
     {
-      "id": "signals-insights-desktop-light",
-      "src": "/portfolio/comply360/signals-insights-desktop-light.webp",
+      "id": "signals-why-egypt-desktop-light",
+      "src": "/portfolio/comply360/signals-why-egypt-desktop-light.webp",
       "width": 1600,
       "height": 1000,
       "device": "desktop",
       "scheme": "light",
       "part": "signals360",
-      "thumb": "/portfolio/comply360/signals-insights-desktop-light-thumb.webp"
+      "thumb": "/portfolio/comply360/signals-why-egypt-desktop-light-thumb.webp",
+      "host": "dev.signals360.tech"
     },
     {
       "id": "belvro-home-desktop-light",
@@ -118,7 +151,8 @@
       "device": "desktop",
       "scheme": "light",
       "part": "belvro-wealth",
-      "thumb": "/portfolio/comply360/belvro-home-desktop-light-thumb.webp"
+      "thumb": "/portfolio/comply360/belvro-home-desktop-light-thumb.webp",
+      "host": "belvrowealth.com"
     },
     {
       "id": "belvro-home-mobile-light",
@@ -128,7 +162,8 @@
       "device": "mobile",
       "scheme": "light",
       "part": "belvro-wealth",
-      "thumb": "/portfolio/comply360/belvro-home-mobile-light-thumb.webp"
+      "thumb": "/portfolio/comply360/belvro-home-mobile-light-thumb.webp",
+      "host": "belvrowealth.com"
     }
   ],
   "skyapps-website": [
@@ -139,7 +174,8 @@
       "height": 1000,
       "device": "desktop",
       "scheme": "light",
-      "thumb": "/portfolio/skyapps-website/sky-home-desktop-light-thumb.webp"
+      "thumb": "/portfolio/skyapps-website/sky-home-desktop-light-thumb.webp",
+      "host": "website.skyapps.me"
     },
     {
       "id": "sky-home-mobile-light",
@@ -148,25 +184,8 @@
       "height": 1688,
       "device": "mobile",
       "scheme": "light",
-      "thumb": "/portfolio/skyapps-website/sky-home-mobile-light-thumb.webp"
-    },
-    {
-      "id": "sky-modules-desktop-light",
-      "src": "/portfolio/skyapps-website/sky-modules-desktop-light.webp",
-      "width": 1600,
-      "height": 1000,
-      "device": "desktop",
-      "scheme": "light",
-      "thumb": "/portfolio/skyapps-website/sky-modules-desktop-light-thumb.webp"
-    },
-    {
-      "id": "sky-sectors-desktop-light",
-      "src": "/portfolio/skyapps-website/sky-sectors-desktop-light.webp",
-      "width": 1600,
-      "height": 1000,
-      "device": "desktop",
-      "scheme": "light",
-      "thumb": "/portfolio/skyapps-website/sky-sectors-desktop-light-thumb.webp"
+      "thumb": "/portfolio/skyapps-website/sky-home-mobile-light-thumb.webp",
+      "host": "website.skyapps.me"
     },
     {
       "id": "sky-home-en-desktop-light",
@@ -175,19 +194,51 @@
       "height": 1000,
       "device": "desktop",
       "scheme": "light",
-      "thumb": "/portfolio/skyapps-website/sky-home-en-desktop-light-thumb.webp"
-    }
-  ],
-  "leen": [
+      "thumb": "/portfolio/skyapps-website/sky-home-en-desktop-light-thumb.webp",
+      "host": "website.skyapps.me"
+    },
     {
-      "id": "leen-dashboard-desktop-dark",
-      "src": "/portfolio/leen/leen-dashboard-desktop-dark.webp",
+      "id": "sky-pricing-desktop-light",
+      "src": "/portfolio/skyapps-website/sky-pricing-desktop-light.webp",
       "width": 1600,
       "height": 1000,
       "device": "desktop",
-      "scheme": "dark",
-      "thumb": "/portfolio/leen/leen-dashboard-desktop-dark-thumb.webp"
+      "scheme": "light",
+      "thumb": "/portfolio/skyapps-website/sky-pricing-desktop-light-thumb.webp",
+      "host": "website.skyapps.me"
     },
+    {
+      "id": "sky-sectors-desktop-light",
+      "src": "/portfolio/skyapps-website/sky-sectors-desktop-light.webp",
+      "width": 1600,
+      "height": 1000,
+      "device": "desktop",
+      "scheme": "light",
+      "thumb": "/portfolio/skyapps-website/sky-sectors-desktop-light-thumb.webp",
+      "host": "website.skyapps.me"
+    },
+    {
+      "id": "sky-solutions-desktop-light",
+      "src": "/portfolio/skyapps-website/sky-solutions-desktop-light.webp",
+      "width": 1600,
+      "height": 1000,
+      "device": "desktop",
+      "scheme": "light",
+      "thumb": "/portfolio/skyapps-website/sky-solutions-desktop-light-thumb.webp",
+      "host": "website.skyapps.me"
+    },
+    {
+      "id": "sky-contact-desktop-light",
+      "src": "/portfolio/skyapps-website/sky-contact-desktop-light.webp",
+      "width": 1600,
+      "height": 1000,
+      "device": "desktop",
+      "scheme": "light",
+      "thumb": "/portfolio/skyapps-website/sky-contact-desktop-light-thumb.webp",
+      "host": "website.skyapps.me"
+    }
+  ],
+  "leen": [
     {
       "id": "leen-dashboard-desktop-light",
       "src": "/portfolio/leen/leen-dashboard-desktop-light.webp",
@@ -195,16 +246,8 @@
       "height": 1000,
       "device": "desktop",
       "scheme": "light",
-      "thumb": "/portfolio/leen/leen-dashboard-desktop-light-thumb.webp"
-    },
-    {
-      "id": "leen-dashboard-mobile-dark",
-      "src": "/portfolio/leen/leen-dashboard-mobile-dark.webp",
-      "width": 780,
-      "height": 1688,
-      "device": "mobile",
-      "scheme": "dark",
-      "thumb": "/portfolio/leen/leen-dashboard-mobile-dark-thumb.webp"
+      "thumb": "/portfolio/leen/leen-dashboard-desktop-light-thumb.webp",
+      "host": "local build"
     },
     {
       "id": "leen-dashboard-mobile-light",
@@ -213,16 +256,18 @@
       "height": 1688,
       "device": "mobile",
       "scheme": "light",
-      "thumb": "/portfolio/leen/leen-dashboard-mobile-light-thumb.webp"
+      "thumb": "/portfolio/leen/leen-dashboard-mobile-light-thumb.webp",
+      "host": "local build"
     },
     {
-      "id": "leen-schedule-desktop-light",
-      "src": "/portfolio/leen/leen-schedule-desktop-light.webp",
+      "id": "leen-schedule-desktop-dark",
+      "src": "/portfolio/leen/leen-schedule-desktop-dark.webp",
       "width": 1600,
       "height": 1000,
       "device": "desktop",
-      "scheme": "light",
-      "thumb": "/portfolio/leen/leen-schedule-desktop-light-thumb.webp"
+      "scheme": "dark",
+      "thumb": "/portfolio/leen/leen-schedule-desktop-dark-thumb.webp",
+      "host": "local build"
     },
     {
       "id": "leen-students-desktop-light",
@@ -231,16 +276,38 @@
       "height": 1000,
       "device": "desktop",
       "scheme": "light",
-      "thumb": "/portfolio/leen/leen-students-desktop-light-thumb.webp"
+      "thumb": "/portfolio/leen/leen-students-desktop-light-thumb.webp",
+      "host": "local build"
     },
     {
-      "id": "leen-dashboard-en-desktop-light",
-      "src": "/portfolio/leen/leen-dashboard-en-desktop-light.webp",
+      "id": "leen-question-bank-desktop-light",
+      "src": "/portfolio/leen/leen-question-bank-desktop-light.webp",
       "width": 1600,
       "height": 1000,
       "device": "desktop",
       "scheme": "light",
-      "thumb": "/portfolio/leen/leen-dashboard-en-desktop-light-thumb.webp"
+      "thumb": "/portfolio/leen/leen-question-bank-desktop-light-thumb.webp",
+      "host": "local build"
+    },
+    {
+      "id": "leen-honor-board-desktop-light",
+      "src": "/portfolio/leen/leen-honor-board-desktop-light.webp",
+      "width": 1600,
+      "height": 1000,
+      "device": "desktop",
+      "scheme": "light",
+      "thumb": "/portfolio/leen/leen-honor-board-desktop-light-thumb.webp",
+      "host": "local build"
+    },
+    {
+      "id": "leen-groups-en-desktop-light",
+      "src": "/portfolio/leen/leen-groups-en-desktop-light.webp",
+      "width": 1600,
+      "height": 1000,
+      "device": "desktop",
+      "scheme": "light",
+      "thumb": "/portfolio/leen/leen-groups-en-desktop-light-thumb.webp",
+      "host": "local build"
     },
     {
       "id": "leen-public-page-desktop-light",
@@ -249,7 +316,8 @@
       "height": 1000,
       "device": "desktop",
       "scheme": "light",
-      "thumb": "/portfolio/leen/leen-public-page-desktop-light-thumb.webp"
+      "thumb": "/portfolio/leen/leen-public-page-desktop-light-thumb.webp",
+      "host": "local build"
     },
     {
       "id": "leen-public-page-mobile-light",
@@ -258,10 +326,31 @@
       "height": 1688,
       "device": "mobile",
       "scheme": "light",
-      "thumb": "/portfolio/leen/leen-public-page-mobile-light-thumb.webp"
+      "thumb": "/portfolio/leen/leen-public-page-mobile-light-thumb.webp",
+      "host": "local build"
     }
   ],
   "film-sa-red-sea": [
+    {
+      "id": "rs-partnerships-desktop-light",
+      "src": "/portfolio/film-sa-red-sea/rs-partnerships-desktop-light.webp",
+      "width": 1600,
+      "height": 1000,
+      "device": "desktop",
+      "scheme": "light",
+      "thumb": "/portfolio/film-sa-red-sea/rs-partnerships-desktop-light-thumb.webp",
+      "host": "local build"
+    },
+    {
+      "id": "rs-partner-details-desktop-light",
+      "src": "/portfolio/film-sa-red-sea/rs-partner-details-desktop-light.webp",
+      "width": 1600,
+      "height": 1000,
+      "device": "desktop",
+      "scheme": "light",
+      "thumb": "/portfolio/film-sa-red-sea/rs-partner-details-desktop-light-thumb.webp",
+      "host": "local build"
+    },
     {
       "id": "rs-partnerships-tour-desktop-light",
       "type": "video",
@@ -271,37 +360,71 @@
       "height": 800,
       "device": "desktop",
       "scheme": "light",
-      "thumb": "/portfolio/film-sa-red-sea/rs-partnerships-tour-desktop-light-thumb.webp"
-    },
-    {
-      "id": "rs-partnerships-desktop-light",
-      "src": "/portfolio/film-sa-red-sea/rs-partnerships-desktop-light.webp",
-      "width": 1600,
-      "height": 1000,
-      "device": "desktop",
-      "scheme": "light",
-      "thumb": "/portfolio/film-sa-red-sea/rs-partnerships-desktop-light-thumb.webp"
-    },
-    {
-      "id": "rs-partner-hover-desktop-light",
-      "src": "/portfolio/film-sa-red-sea/rs-partner-hover-desktop-light.webp",
-      "width": 1600,
-      "height": 1000,
-      "device": "desktop",
-      "scheme": "light",
-      "thumb": "/portfolio/film-sa-red-sea/rs-partner-hover-desktop-light-thumb.webp"
-    },
-    {
-      "id": "rs-partner-details-desktop-light",
-      "src": "/portfolio/film-sa-red-sea/rs-partner-details-desktop-light.webp",
-      "width": 1600,
-      "height": 1000,
-      "device": "desktop",
-      "scheme": "light",
-      "thumb": "/portfolio/film-sa-red-sea/rs-partner-details-desktop-light-thumb.webp"
+      "thumb": "/portfolio/film-sa-red-sea/rs-partnerships-tour-desktop-light-thumb.webp",
+      "host": "local build"
     }
   ],
   "daem-spi-hwadi": [
+    {
+      "id": "hw-group-ceo-desktop-light",
+      "src": "/portfolio/daem-spi-hwadi/hw-group-ceo-desktop-light.webp",
+      "width": 1600,
+      "height": 1000,
+      "device": "desktop",
+      "scheme": "light",
+      "thumb": "/portfolio/daem-spi-hwadi/hw-group-ceo-desktop-light-thumb.webp",
+      "host": "local build"
+    },
+    {
+      "id": "hw-cfo-desktop-light",
+      "src": "/portfolio/daem-spi-hwadi/hw-cfo-desktop-light.webp",
+      "width": 1600,
+      "height": 1000,
+      "device": "desktop",
+      "scheme": "light",
+      "thumb": "/portfolio/daem-spi-hwadi/hw-cfo-desktop-light-thumb.webp",
+      "host": "local build"
+    },
+    {
+      "id": "hw-cfo-balances-desktop-light",
+      "src": "/portfolio/daem-spi-hwadi/hw-cfo-balances-desktop-light.webp",
+      "width": 1600,
+      "height": 1000,
+      "device": "desktop",
+      "scheme": "light",
+      "thumb": "/portfolio/daem-spi-hwadi/hw-cfo-balances-desktop-light-thumb.webp",
+      "host": "local build"
+    },
+    {
+      "id": "hw-pmo-desktop-light",
+      "src": "/portfolio/daem-spi-hwadi/hw-pmo-desktop-light.webp",
+      "width": 1600,
+      "height": 1000,
+      "device": "desktop",
+      "scheme": "light",
+      "thumb": "/portfolio/daem-spi-hwadi/hw-pmo-desktop-light-thumb.webp",
+      "host": "local build"
+    },
+    {
+      "id": "hw-executive-desktop-light",
+      "src": "/portfolio/daem-spi-hwadi/hw-executive-desktop-light.webp",
+      "width": 1600,
+      "height": 1000,
+      "device": "desktop",
+      "scheme": "light",
+      "thumb": "/portfolio/daem-spi-hwadi/hw-executive-desktop-light-thumb.webp",
+      "host": "local build"
+    },
+    {
+      "id": "hw-demographics-desktop-light",
+      "src": "/portfolio/daem-spi-hwadi/hw-demographics-desktop-light.webp",
+      "width": 1600,
+      "height": 1000,
+      "device": "desktop",
+      "scheme": "light",
+      "thumb": "/portfolio/daem-spi-hwadi/hw-demographics-desktop-light-thumb.webp",
+      "host": "local build"
+    },
     {
       "id": "hw-dashboards-tour-desktop-light",
       "type": "video",
@@ -311,64 +434,51 @@
       "height": 800,
       "device": "desktop",
       "scheme": "light",
-      "thumb": "/portfolio/daem-spi-hwadi/hw-dashboards-tour-desktop-light-thumb.webp"
-    },
-    {
-      "id": "hw-group-ceo-desktop-light",
-      "src": "/portfolio/daem-spi-hwadi/hw-group-ceo-desktop-light.webp",
-      "width": 1600,
-      "height": 1000,
-      "device": "desktop",
-      "scheme": "light",
-      "thumb": "/portfolio/daem-spi-hwadi/hw-group-ceo-desktop-light-thumb.webp"
-    },
-    {
-      "id": "hw-cfo-desktop-light",
-      "src": "/portfolio/daem-spi-hwadi/hw-cfo-desktop-light.webp",
-      "width": 1600,
-      "height": 1000,
-      "device": "desktop",
-      "scheme": "light",
-      "thumb": "/portfolio/daem-spi-hwadi/hw-cfo-desktop-light-thumb.webp"
-    },
-    {
-      "id": "hw-cfo-balances-desktop-light",
-      "src": "/portfolio/daem-spi-hwadi/hw-cfo-balances-desktop-light.webp",
-      "width": 1600,
-      "height": 1000,
-      "device": "desktop",
-      "scheme": "light",
-      "thumb": "/portfolio/daem-spi-hwadi/hw-cfo-balances-desktop-light-thumb.webp"
-    },
-    {
-      "id": "hw-pmo-desktop-light",
-      "src": "/portfolio/daem-spi-hwadi/hw-pmo-desktop-light.webp",
-      "width": 1600,
-      "height": 1000,
-      "device": "desktop",
-      "scheme": "light",
-      "thumb": "/portfolio/daem-spi-hwadi/hw-pmo-desktop-light-thumb.webp"
-    },
-    {
-      "id": "hw-executive-desktop-light",
-      "src": "/portfolio/daem-spi-hwadi/hw-executive-desktop-light.webp",
-      "width": 1600,
-      "height": 1000,
-      "device": "desktop",
-      "scheme": "light",
-      "thumb": "/portfolio/daem-spi-hwadi/hw-executive-desktop-light-thumb.webp"
-    },
-    {
-      "id": "hw-demographics-desktop-light",
-      "src": "/portfolio/daem-spi-hwadi/hw-demographics-desktop-light.webp",
-      "width": 1600,
-      "height": 1000,
-      "device": "desktop",
-      "scheme": "light",
-      "thumb": "/portfolio/daem-spi-hwadi/hw-demographics-desktop-light-thumb.webp"
+      "thumb": "/portfolio/daem-spi-hwadi/hw-dashboards-tour-desktop-light-thumb.webp",
+      "host": "local build"
     }
   ],
   "etolv-tourism-erp": [
+    {
+      "id": "et-home-desktop-light",
+      "src": "/portfolio/etolv-tourism-erp/et-home-desktop-light.webp",
+      "width": 1600,
+      "height": 1000,
+      "device": "desktop",
+      "scheme": "light",
+      "thumb": "/portfolio/etolv-tourism-erp/et-home-desktop-light-thumb.webp",
+      "host": "portal.etolv.net"
+    },
+    {
+      "id": "et-quick-access-desktop-light",
+      "src": "/portfolio/etolv-tourism-erp/et-quick-access-desktop-light.webp",
+      "width": 1600,
+      "height": 1000,
+      "device": "desktop",
+      "scheme": "light",
+      "thumb": "/portfolio/etolv-tourism-erp/et-quick-access-desktop-light-thumb.webp",
+      "host": "portal.etolv.net"
+    },
+    {
+      "id": "et-statistics-desktop-dark",
+      "src": "/portfolio/etolv-tourism-erp/et-statistics-desktop-dark.webp",
+      "width": 1600,
+      "height": 1000,
+      "device": "desktop",
+      "scheme": "dark",
+      "thumb": "/portfolio/etolv-tourism-erp/et-statistics-desktop-dark-thumb.webp",
+      "host": "portal.etolv.net"
+    },
+    {
+      "id": "et-hrm-desktop-light",
+      "src": "/portfolio/etolv-tourism-erp/et-hrm-desktop-light.webp",
+      "width": 1600,
+      "height": 1000,
+      "device": "desktop",
+      "scheme": "light",
+      "thumb": "/portfolio/etolv-tourism-erp/et-hrm-desktop-light-thumb.webp",
+      "host": "portal.etolv.net"
+    },
     {
       "id": "et-portal-tour-desktop-light",
       "type": "video",
@@ -378,52 +488,102 @@
       "height": 800,
       "device": "desktop",
       "scheme": "light",
-      "thumb": "/portfolio/etolv-tourism-erp/et-portal-tour-desktop-light-thumb.webp"
+      "thumb": "/portfolio/etolv-tourism-erp/et-portal-tour-desktop-light-thumb.webp",
+      "host": "portal.etolv.net"
+    }
+  ],
+  "epath-erp": [
+    {
+      "id": "epath-home-desktop-light",
+      "src": "/portfolio/epath-erp/epath-home-desktop-light.webp",
+      "width": 1600,
+      "height": 1000,
+      "device": "desktop",
+      "scheme": "light",
+      "thumb": "/portfolio/epath-erp/epath-home-desktop-light-thumb.webp",
+      "host": "demo.skyapps.me"
     },
     {
-      "id": "et-home-desktop-dark",
-      "src": "/portfolio/etolv-tourism-erp/et-home-desktop-dark.webp",
+      "id": "epath-journals-desktop-light",
+      "src": "/portfolio/epath-erp/epath-journals-desktop-light.webp",
+      "width": 1600,
+      "height": 1000,
+      "device": "desktop",
+      "scheme": "light",
+      "thumb": "/portfolio/epath-erp/epath-journals-desktop-light-thumb.webp",
+      "host": "demo.skyapps.me"
+    },
+    {
+      "id": "epath-approval-desktop-light",
+      "src": "/portfolio/epath-erp/epath-approval-desktop-light.webp",
+      "width": 1600,
+      "height": 1000,
+      "device": "desktop",
+      "scheme": "light",
+      "thumb": "/portfolio/epath-erp/epath-approval-desktop-light-thumb.webp",
+      "host": "demo.skyapps.me"
+    },
+    {
+      "id": "epath-trial-balance-desktop-dark",
+      "src": "/portfolio/epath-erp/epath-trial-balance-desktop-dark.webp",
       "width": 1600,
       "height": 1000,
       "device": "desktop",
       "scheme": "dark",
-      "thumb": "/portfolio/etolv-tourism-erp/et-home-desktop-dark-thumb.webp"
+      "thumb": "/portfolio/epath-erp/epath-trial-balance-desktop-dark-thumb.webp",
+      "host": "demo.skyapps.me"
     },
     {
-      "id": "et-home-desktop-light",
-      "src": "/portfolio/etolv-tourism-erp/et-home-desktop-light.webp",
+      "id": "epath-chart-of-accounts-desktop-light",
+      "src": "/portfolio/epath-erp/epath-chart-of-accounts-desktop-light.webp",
       "width": 1600,
       "height": 1000,
       "device": "desktop",
       "scheme": "light",
-      "thumb": "/portfolio/etolv-tourism-erp/et-home-desktop-light-thumb.webp"
+      "thumb": "/portfolio/epath-erp/epath-chart-of-accounts-desktop-light-thumb.webp",
+      "host": "demo.skyapps.me"
     },
     {
-      "id": "et-quick-access-desktop-light",
-      "src": "/portfolio/etolv-tourism-erp/et-quick-access-desktop-light.webp",
+      "id": "epath-purchase-orders-desktop-light",
+      "src": "/portfolio/epath-erp/epath-purchase-orders-desktop-light.webp",
       "width": 1600,
       "height": 1000,
       "device": "desktop",
       "scheme": "light",
-      "thumb": "/portfolio/etolv-tourism-erp/et-quick-access-desktop-light-thumb.webp"
+      "thumb": "/portfolio/epath-erp/epath-purchase-orders-desktop-light-thumb.webp",
+      "host": "demo.skyapps.me"
     },
     {
-      "id": "et-statistics-desktop-light",
-      "src": "/portfolio/etolv-tourism-erp/et-statistics-desktop-light.webp",
+      "id": "epath-stock-movements-desktop-dark",
+      "src": "/portfolio/epath-erp/epath-stock-movements-desktop-dark.webp",
       "width": 1600,
       "height": 1000,
       "device": "desktop",
-      "scheme": "light",
-      "thumb": "/portfolio/etolv-tourism-erp/et-statistics-desktop-light-thumb.webp"
+      "scheme": "dark",
+      "thumb": "/portfolio/epath-erp/epath-stock-movements-desktop-dark-thumb.webp",
+      "host": "demo.skyapps.me"
     },
     {
-      "id": "et-hrm-desktop-light",
-      "src": "/portfolio/etolv-tourism-erp/et-hrm-desktop-light.webp",
+      "id": "epath-dashboard-en-desktop-dark",
+      "src": "/portfolio/epath-erp/epath-dashboard-en-desktop-dark.webp",
       "width": 1600,
       "height": 1000,
       "device": "desktop",
+      "scheme": "dark",
+      "thumb": "/portfolio/epath-erp/epath-dashboard-en-desktop-dark-thumb.webp",
+      "host": "demo.skyapps.me"
+    },
+    {
+      "id": "epath-tour-desktop-light",
+      "type": "video",
+      "src": "/portfolio/epath-erp/epath-tour-desktop-light.mp4",
+      "poster": "/portfolio/epath-erp/epath-tour-desktop-light.webp",
+      "width": 1280,
+      "height": 800,
+      "device": "desktop",
       "scheme": "light",
-      "thumb": "/portfolio/etolv-tourism-erp/et-hrm-desktop-light-thumb.webp"
+      "thumb": "/portfolio/epath-erp/epath-tour-desktop-light-thumb.webp",
+      "host": "demo.skyapps.me"
     }
   ]
 }

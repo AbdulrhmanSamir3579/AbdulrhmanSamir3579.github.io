@@ -337,9 +337,9 @@ async function capture() {
       for (const device of t.devices ?? ["desktop"]) {
         if (deviceFilter && device !== deviceFilter) continue;
         for (const scheme of t.schemes ?? ["light"]) {
-          const key = `${device}|${scheme}|${t.auth ?? ""}`;
+          const key = `${device}|${scheme}|${t.auth ?? ""}|${JSON.stringify(t.storage ?? {})}`;
           if (!groups.has(key))
-            groups.set(key, { device, scheme, auth: t.auth, items: [] });
+            groups.set(key, { device, scheme, auth: t.auth, storage: t.storage, items: [] });
           groups.get(key).items.push(t);
         }
       }
@@ -354,6 +354,8 @@ async function capture() {
         locale: "en-US",
       });
       await applyTheme(context, g.auth, g.scheme);
+      // Per-target localStorage (e.g. ePath language) — set before any page script runs.
+      if (g.storage) await context.addInitScript((kv) => { for (const [k, v] of Object.entries(kv)) localStorage.setItem(k, v); }, g.storage);
       const page = await context.newPage();
       try {
         if (g.auth) await auth[g.auth](page);
@@ -390,6 +392,7 @@ async function capture() {
               device: g.device,
               scheme: g.scheme,
               ...(t.part ? { part: t.part } : {}),
+              host: hostOf(t.url),
               thumb: `/portfolio/${t.slug}/${id}-thumb.webp`,
             };
             const list = (manifest[t.slug] ??= []);
@@ -426,6 +429,12 @@ async function capture() {
 }
 
 const baseId = (id) => id.replace(/-(desktop|mobile)-(light|dark)$/, "");
+
+/** Address shown in the gallery's browser bar; local builds get a neutral label. */
+const hostOf = (url) => {
+  const { hostname } = new URL(url);
+  return /^(localhost|127\.0\.0\.1)$/.test(hostname) ? "local build" : hostname;
+};
 
 // ── videos ─────────────────────────────────────────────────────────────────
 async function recordVideos() {
@@ -471,6 +480,7 @@ async function recordOne(browser, v, manifest, rawDir) {
     recordVideo: { dir: rawDir, size: { width: 1440, height: 900 } },
   });
   await applyTheme(context, v.auth, scheme);
+  if (v.storage) await context.addInitScript((kv) => { for (const [k, val] of Object.entries(kv)) localStorage.setItem(k, val); }, v.storage);
   const started = Date.now();
   const page = await context.newPage();
   let posterPng;
@@ -549,6 +559,7 @@ async function recordOne(browser, v, manifest, rawDir) {
     device: "desktop",
     scheme,
     ...(v.part ? { part: v.part } : {}),
+    host: hostOf(v.url),
     thumb: `/portfolio/${v.slug}/${id}-thumb.webp`,
   };
   const list = (manifest[v.slug] ??= []);
@@ -644,6 +655,8 @@ async function publish() {
       for (const f of files)
         await fs.copyFile(path.join(tmpDir, slug, f), path.join(dest, f));
     }
+    // Stills first, videos last: the first desktop still is the cover, and a video's poster repeats a still.
+    approved.sort((a, b) => Number(a.type === "video") - Number(b.type === "video"));
     live[slug] = approved;
     console.log(`${slug}: ${approved.length} shots`);
   }

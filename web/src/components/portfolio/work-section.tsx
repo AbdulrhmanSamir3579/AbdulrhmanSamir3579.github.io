@@ -61,8 +61,8 @@ export function WorkSection({ work, featured, earlier }: Props) {
           viewport={viewport}
           className="mt-14 grid gap-8 md:grid-cols-2"
         >
-          {featured.map((p) => (
-            <ProjectCard key={p.slug} project={p} />
+          {featured.map((p, i) => (
+            <ProjectCard key={p.slug} project={p} wide={i === 0} />
           ))}
         </motion.div>
 

@@ -103,7 +103,30 @@ export function ProjectMediaGallery({ title, media, size = "card" }: Props) {
       onPointerDown={() => containerRef.current?.focus({ preventScroll: true })}
       className="outline-none focus-visible:ring-2 focus-visible:ring-[var(--accent)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--card)]"
     >
-      <motion.div className="relative overflow-hidden border-b border-white/20 bg-black/35 backdrop-blur-[2px] dark:border-white/10 dark:bg-black/50">
+      {/* Browser chrome: frames the shot and shows where it was captured */}
+      <div
+        dir="ltr"
+        className="flex items-center gap-3 border-b border-[var(--card-border)] bg-[color-mix(in_srgb,var(--card)_80%,transparent)] px-3.5 py-2"
+      >
+        <span aria-hidden className="flex gap-1.5">
+          <span className="h-2.5 w-2.5 rounded-full bg-[#ff5f57]/85" />
+          <span className="h-2.5 w-2.5 rounded-full bg-[#febc2e]/85" />
+          <span className="h-2.5 w-2.5 rounded-full bg-[#28c840]/85" />
+        </span>
+        {item.host ? (
+          <span className="mx-auto max-w-[60%] truncate rounded-md bg-[color-mix(in_srgb,var(--foreground)_6%,transparent)] px-3 py-0.5 text-center font-mono text-[11px] text-[var(--muted)]">
+            {item.host}
+          </span>
+        ) : null}
+        <span aria-hidden className="w-[42px]" />
+      </div>
+      <motion.div
+        className={`relative overflow-hidden border-b border-white/20 backdrop-blur-[2px] dark:border-white/10 ${
+          isMobileShot
+            ? "bg-gradient-to-br from-[var(--accent-soft)] via-transparent to-[var(--violet-soft)]"
+            : "bg-black/35 dark:bg-black/50"
+        }`}
+      >
         <AnimatePresence initial={false} custom={direction} mode="wait">
           <motion.div
             key={clamped}
@@ -138,6 +161,23 @@ export function ProjectMediaGallery({ title, media, size = "card" }: Props) {
                 preload="none"
                 className="h-full w-full bg-black object-contain"
               />
+            ) : isMobileShot ? (
+              // Phone frame for mobile captures instead of a letterbox
+              <div className="flex h-full w-full items-center justify-center p-[4%]">
+                <div className="h-full overflow-hidden rounded-[1.4rem] border-[5px] border-[#0b0d12] bg-black shadow-2xl ring-1 ring-white/15">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src={item.src}
+                    alt={item.alt}
+                    width={item.width}
+                    height={item.height}
+                    draggable={false}
+                    className="h-full w-auto select-none object-cover object-top"
+                    loading={clamped === 0 ? "eager" : "lazy"}
+                    decoding="async"
+                  />
+                </div>
+              </div>
             ) : (
               // eslint-disable-next-line @next/next/no-img-element
               <img
@@ -146,9 +186,7 @@ export function ProjectMediaGallery({ title, media, size = "card" }: Props) {
                 width={item.width}
                 height={item.height}
                 draggable={false}
-                className={`h-full w-full select-none ${
-                  isMobileShot ? "object-contain" : "object-cover object-top"
-                }`}
+                className="h-full w-full select-none object-cover object-top"
                 loading={clamped === 0 ? "eager" : "lazy"}
                 decoding="async"
               />
