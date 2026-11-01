@@ -3,7 +3,7 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import { AnimatePresence, motion, useInView } from "framer-motion";
 import { useReducedMotion } from "@/lib/use-reduced-motion";
-import { ChevronLeft, ChevronRight } from "lucide-react";
+import { ChevronLeft, ChevronRight, Play } from "lucide-react";
 import type { MediaView } from "@/content/types";
 import { fill, useDirSign, useLocale } from "@/i18n/locale-provider";
 import { springSnappy } from "@/lib/motion-presets";
@@ -91,6 +91,7 @@ export function ProjectMediaGallery({ title, media, size = "card" }: Props) {
 
   const frame = size === "page" ? "aspect-[16/10] md:aspect-[16/9]" : "aspect-[16/10]";
   const isMobileShot = item.device === "mobile";
+  const isVideo = item.type === "video";
 
   return (
     <div
@@ -112,7 +113,7 @@ export function ProjectMediaGallery({ title, media, size = "card" }: Props) {
             animate="center"
             exit="exit"
             className={`${frame} w-full cursor-grab active:cursor-grabbing`}
-            drag={reduce || !hasMany ? false : "x"}
+            drag={reduce || !hasMany || isVideo ? false : "x"}
             dragConstraints={{ left: 0, right: 0 }}
             dragElastic={0.2}
             onDragEnd={(_, info) => {
@@ -122,19 +123,36 @@ export function ProjectMediaGallery({ title, media, size = "card" }: Props) {
               if (off > swipeConfidence || vel > 280) go(-1);
             }}
           >
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              src={item.src}
-              alt={item.alt}
-              width={item.width}
-              height={item.height}
-              draggable={false}
-              className={`h-full w-full select-none ${
-                isMobileShot ? "object-contain" : "object-cover object-top"
-              }`}
-              loading={clamped === 0 ? "eager" : "lazy"}
-              decoding="async"
-            />
+            {isVideo ? (
+              <video
+                key={item.src}
+                src={item.src}
+                poster={item.poster}
+                aria-label={item.alt}
+                width={item.width}
+                height={item.height}
+                controls
+                muted
+                loop
+                playsInline
+                preload="none"
+                className="h-full w-full bg-black object-contain"
+              />
+            ) : (
+              // eslint-disable-next-line @next/next/no-img-element
+              <img
+                src={item.src}
+                alt={item.alt}
+                width={item.width}
+                height={item.height}
+                draggable={false}
+                className={`h-full w-full select-none ${
+                  isMobileShot ? "object-contain" : "object-cover object-top"
+                }`}
+                loading={clamped === 0 ? "eager" : "lazy"}
+                decoding="async"
+              />
+            )}
           </motion.div>
         </AnimatePresence>
 
@@ -192,12 +210,17 @@ export function ProjectMediaGallery({ title, media, size = "card" }: Props) {
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src={m.thumb ?? m.src}
+                src={m.thumb ?? m.poster ?? m.src}
                 alt=""
                 loading="lazy"
                 decoding="async"
                 className={`h-full w-full ${m.device === "mobile" ? "object-contain bg-black/40" : "object-cover object-top"}`}
               />
+              {m.type === "video" ? (
+                <span className="absolute inset-0 flex items-center justify-center bg-black/35">
+                  <Play className="h-4 w-4 fill-white text-white drop-shadow" aria-label={ui.gallery.video} />
+                </span>
+              ) : null}
             </button>
           ))}
         </div>

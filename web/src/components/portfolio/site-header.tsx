@@ -36,7 +36,7 @@ export function SiteHeader({ name, tagline }: { name: string; tagline: string })
   return (
     <motion.header
       style={{ boxShadow: headerShadow }}
-      className="sticky top-0 z-50 glass-surface rounded-b-2xl border-b border-white/30 !bg-[color-mix(in_srgb,var(--background)_82%,transparent)] dark:border-white/10"
+      className="sticky top-0 z-50 glass-surface rounded-b-2xl border-b border-white/30 dark:border-white/10"
     >
       <a
         href="#main"

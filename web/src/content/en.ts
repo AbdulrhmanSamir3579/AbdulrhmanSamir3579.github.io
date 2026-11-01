@@ -157,7 +157,7 @@ export const en = {
         highlights: [
           "Architected a tourism ERP for travel agencies across MENA — accounting, CRM, CMS and Hajj/Umrah booking.",
           "Built the ERP’s financial core: multi-gateway payments, automated invoicing, reconciliation and audit trails.",
-          "Led an 18-month Angular v8 → v19 migration, rebuilding 50+ components.",
+          "Led an 18-month Angular v8 → v18 migration, rebuilding 50+ components.",
           "Promoted to senior; mentored two engineers.",
         ],
       },
@@ -169,7 +169,8 @@ export const en = {
     description:
       "Real products, most of them live. Employer code is private, so these are case studies with screenshots and links to the running apps.",
     earlierTitle: "Earlier work",
-    earlierDescription: "Case studies from previous roles — the products are private or no longer public, so these are written write-ups.",
+    earlierDescription:
+      "Case studies from previous roles, with screenshots and short videos from local builds and demo accounts.",
   },
   contact: {
     kicker: "Contact",
@@ -275,17 +276,19 @@ export const en = {
       org: "ETOLV",
       role: "Frontend Developer → Senior Frontend Developer",
       summary:
-        "A tourism ERP for travel agencies across MENA: accounting, CRM, CMS and Hajj/Umrah booking workflows.",
+        "A tourism ERP for travel agencies across MENA — accounting, CRM, reservations, HR and Hajj/Umrah — and its new Angular portal, which I helped upgrade and build.",
       problem:
         "Travel agencies run bookings, pilgrim groups, suppliers and accounting in one system — the financial records have to stay exact while the booking workflows keep growing.",
       built: [
         "Architected the platform’s frontend across the accounting, CRM, CMS and Hajj/Umrah booking modules.",
+        "Upgraded the portal from Angular 8 to the new Angular 18 portal and built many of its modules: the analytics home, reservations and reports, Hajj & Umrah trips, HR and statistics — and kept contributing after 2024.",
         "Built the financial core: multi-gateway payments, automated invoicing, real-time reconciliation and audit trails.",
         "Designed an HR system from the ground up: payroll calculation, attendance tracking and compliance reporting for a 500+ employee organization.",
-        "Led an 18-month Angular v8 → v19 migration, rebuilding 50+ components with a performance-first architecture.",
+        "Led the 18-month Angular v8 → v18 migration, rebuilding 50+ components with a performance-first architecture.",
         "Automated localization across eight languages with a Python + Google Translate pipeline.",
       ],
-      outcome: "Promoted to senior and mentored two engineers. The portal and accounting apps are still in production.",
+      outcome:
+        "Promoted to senior and mentored two engineers. The new portal and the accounting app are live in production — screenshots are from a demo account, with staff names blurred.",
     },
     "film-sa-red-sea": {
       title: "Film SA & Red Sea",
@@ -298,9 +301,10 @@ export const en = {
       built: [
         "The Film SA cash-rebate admin (Angular 18) for reviewing and evaluating applications — I was its lead contributor.",
         "Pixel-perfect, animation-rich Angular implementations of complex design systems.",
-        "Red Sea hub and analysis pages (Angular 19).",
+        "The Red Sea Global analysis portal (Angular 19): a partnerships explorer where cards expand on hover and open detail views through Angular page-transition animations.",
       ],
-      outcome: "Both shipped as flagship work for the studio’s Saudi clients.",
+      outcome:
+        "Both shipped as flagship work for the studio’s Saudi clients. The Red Sea screens and video are from a local build of the frontend.",
     },
     "daem-spi-hwadi": {
       title: "DAEM & Hwadi",
@@ -312,12 +316,13 @@ export const en = {
         "Government teams needed secure portals and analytics dashboards that share one consistent, themeable visual language.",
       built: [
         "DAEM (SPI) platform frontend in Angular 18 with server-side rendering — I was its lead contributor.",
-        "Hwadi strategy dashboard (Angular 19, Chart.js) for external and internal environment analysis, built solo.",
+        "Hwadi strategy dashboard (Angular 19, Chart.js), built solo: external-environment analysis plus executive dashboards for the chairman, group CEO, CFO, PMO and executive director.",
         "A unified, themeable data-visualization system (Chart.js, ECharts, ApexCharts) used across the studio’s platforms.",
         "An enterprise component library — authentication, complex data tables and dynamic form builders.",
         "An NgRx caching layer to cut redundant API traffic.",
       ],
-      outcome: "Each new platform started from shared, working infrastructure instead of a blank repository.",
+      outcome:
+        "Each new platform started from shared, working infrastructure instead of a blank repository. The Hwadi screens and video are from a local build with its built-in sample data.",
     },
   },
   ui: {
@@ -340,6 +345,7 @@ export const en = {
     downloadCv: "Download CV",
     present: "Present",
     links: {
+      suite: "360 suite",
       live: "Live app",
       site: "Website",
       demo: "Live demo",
@@ -355,6 +361,7 @@ export const en = {
       next: "Next screenshot",
       showSlide: "Show screenshot {n}",
       hint: "{n} screenshots · swipe or use the arrow keys",
+      video: "Video",
     },
     caseStudy: {
       read: "Read case study",

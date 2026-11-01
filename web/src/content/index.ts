@@ -64,7 +64,7 @@ export function getProjectCards(lang: Locale): ProjectCardView[] {
       period: p.period,
       href: p.href,
       media: p.media,
-      partNames: p.parts?.map((part) => part.name),
+      parts: p.parts?.map(({ id, name }) => ({ id, name })),
     };
   });
 }

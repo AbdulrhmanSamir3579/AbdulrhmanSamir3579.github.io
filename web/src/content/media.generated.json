@@ -260,5 +260,170 @@
       "scheme": "light",
       "thumb": "/portfolio/leen/leen-public-page-mobile-light-thumb.webp"
     }
+  ],
+  "film-sa-red-sea": [
+    {
+      "id": "rs-partnerships-tour-desktop-light",
+      "type": "video",
+      "src": "/portfolio/film-sa-red-sea/rs-partnerships-tour-desktop-light.mp4",
+      "poster": "/portfolio/film-sa-red-sea/rs-partnerships-tour-desktop-light.webp",
+      "width": 1280,
+      "height": 800,
+      "device": "desktop",
+      "scheme": "light",
+      "thumb": "/portfolio/film-sa-red-sea/rs-partnerships-tour-desktop-light-thumb.webp"
+    },
+    {
+      "id": "rs-partnerships-desktop-light",
+      "src": "/portfolio/film-sa-red-sea/rs-partnerships-desktop-light.webp",
+      "width": 1600,
+      "height": 1000,
+      "device": "desktop",
+      "scheme": "light",
+      "thumb": "/portfolio/film-sa-red-sea/rs-partnerships-desktop-light-thumb.webp"
+    },
+    {
+      "id": "rs-partner-hover-desktop-light",
+      "src": "/portfolio/film-sa-red-sea/rs-partner-hover-desktop-light.webp",
+      "width": 1600,
+      "height": 1000,
+      "device": "desktop",
+      "scheme": "light",
+      "thumb": "/portfolio/film-sa-red-sea/rs-partner-hover-desktop-light-thumb.webp"
+    },
+    {
+      "id": "rs-partner-details-desktop-light",
+      "src": "/portfolio/film-sa-red-sea/rs-partner-details-desktop-light.webp",
+      "width": 1600,
+      "height": 1000,
+      "device": "desktop",
+      "scheme": "light",
+      "thumb": "/portfolio/film-sa-red-sea/rs-partner-details-desktop-light-thumb.webp"
+    }
+  ],
+  "daem-spi-hwadi": [
+    {
+      "id": "hw-dashboards-tour-desktop-light",
+      "type": "video",
+      "src": "/portfolio/daem-spi-hwadi/hw-dashboards-tour-desktop-light.mp4",
+      "poster": "/portfolio/daem-spi-hwadi/hw-dashboards-tour-desktop-light.webp",
+      "width": 1280,
+      "height": 800,
+      "device": "desktop",
+      "scheme": "light",
+      "thumb": "/portfolio/daem-spi-hwadi/hw-dashboards-tour-desktop-light-thumb.webp"
+    },
+    {
+      "id": "hw-group-ceo-desktop-light",
+      "src": "/portfolio/daem-spi-hwadi/hw-group-ceo-desktop-light.webp",
+      "width": 1600,
+      "height": 1000,
+      "device": "desktop",
+      "scheme": "light",
+      "thumb": "/portfolio/daem-spi-hwadi/hw-group-ceo-desktop-light-thumb.webp"
+    },
+    {
+      "id": "hw-cfo-desktop-light",
+      "src": "/portfolio/daem-spi-hwadi/hw-cfo-desktop-light.webp",
+      "width": 1600,
+      "height": 1000,
+      "device": "desktop",
+      "scheme": "light",
+      "thumb": "/portfolio/daem-spi-hwadi/hw-cfo-desktop-light-thumb.webp"
+    },
+    {
+      "id": "hw-cfo-balances-desktop-light",
+      "src": "/portfolio/daem-spi-hwadi/hw-cfo-balances-desktop-light.webp",
+      "width": 1600,
+      "height": 1000,
+      "device": "desktop",
+      "scheme": "light",
+      "thumb": "/portfolio/daem-spi-hwadi/hw-cfo-balances-desktop-light-thumb.webp"
+    },
+    {
+      "id": "hw-pmo-desktop-light",
+      "src": "/portfolio/daem-spi-hwadi/hw-pmo-desktop-light.webp",
+      "width": 1600,
+      "height": 1000,
+      "device": "desktop",
+      "scheme": "light",
+      "thumb": "/portfolio/daem-spi-hwadi/hw-pmo-desktop-light-thumb.webp"
+    },
+    {
+      "id": "hw-executive-desktop-light",
+      "src": "/portfolio/daem-spi-hwadi/hw-executive-desktop-light.webp",
+      "width": 1600,
+      "height": 1000,
+      "device": "desktop",
+      "scheme": "light",
+      "thumb": "/portfolio/daem-spi-hwadi/hw-executive-desktop-light-thumb.webp"
+    },
+    {
+      "id": "hw-demographics-desktop-light",
+      "src": "/portfolio/daem-spi-hwadi/hw-demographics-desktop-light.webp",
+      "width": 1600,
+      "height": 1000,
+      "device": "desktop",
+      "scheme": "light",
+      "thumb": "/portfolio/daem-spi-hwadi/hw-demographics-desktop-light-thumb.webp"
+    }
+  ],
+  "etolv-tourism-erp": [
+    {
+      "id": "et-portal-tour-desktop-light",
+      "type": "video",
+      "src": "/portfolio/etolv-tourism-erp/et-portal-tour-desktop-light.mp4",
+      "poster": "/portfolio/etolv-tourism-erp/et-portal-tour-desktop-light.webp",
+      "width": 1280,
+      "height": 800,
+      "device": "desktop",
+      "scheme": "light",
+      "thumb": "/portfolio/etolv-tourism-erp/et-portal-tour-desktop-light-thumb.webp"
+    },
+    {
+      "id": "et-home-desktop-dark",
+      "src": "/portfolio/etolv-tourism-erp/et-home-desktop-dark.webp",
+      "width": 1600,
+      "height": 1000,
+      "device": "desktop",
+      "scheme": "dark",
+      "thumb": "/portfolio/etolv-tourism-erp/et-home-desktop-dark-thumb.webp"
+    },
+    {
+      "id": "et-home-desktop-light",
+      "src": "/portfolio/etolv-tourism-erp/et-home-desktop-light.webp",
+      "width": 1600,
+      "height": 1000,
+      "device": "desktop",
+      "scheme": "light",
+      "thumb": "/portfolio/etolv-tourism-erp/et-home-desktop-light-thumb.webp"
+    },
+    {
+      "id": "et-quick-access-desktop-light",
+      "src": "/portfolio/etolv-tourism-erp/et-quick-access-desktop-light.webp",
+      "width": 1600,
+      "height": 1000,
+      "device": "desktop",
+      "scheme": "light",
+      "thumb": "/portfolio/etolv-tourism-erp/et-quick-access-desktop-light-thumb.webp"
+    },
+    {
+      "id": "et-statistics-desktop-light",
+      "src": "/portfolio/etolv-tourism-erp/et-statistics-desktop-light.webp",
+      "width": 1600,
+      "height": 1000,
+      "device": "desktop",
+      "scheme": "light",
+      "thumb": "/portfolio/etolv-tourism-erp/et-statistics-desktop-light-thumb.webp"
+    },
+    {
+      "id": "et-hrm-desktop-light",
+      "src": "/portfolio/etolv-tourism-erp/et-hrm-desktop-light.webp",
+      "width": 1600,
+      "height": 1000,
+      "device": "desktop",
+      "scheme": "light",
+      "thumb": "/portfolio/etolv-tourism-erp/et-hrm-desktop-light-thumb.webp"
+    }
   ]
 }

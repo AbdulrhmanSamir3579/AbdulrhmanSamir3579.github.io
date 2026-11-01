@@ -101,11 +101,11 @@ footer[id] {
   scroll-margin-top: 5.5rem;
 }
 
-/* Frosted surfaces */
+/* Frosted surfaces — unprefixed backdrop-filter must come last: the minifier keeps only the last of the pair */
 .glass-surface {
   background: var(--glass-bg);
-  backdrop-filter: blur(20px) saturate(175%);
   -webkit-backdrop-filter: blur(20px) saturate(175%);
+  backdrop-filter: blur(20px) saturate(175%);
   border: 1px solid var(--glass-edge);
   box-shadow:
     var(--glass-shadow),
@@ -114,8 +114,8 @@ footer[id] {
 
 .glass-surface-strong {
   background: var(--glass-bg-hover);
-  backdrop-filter: blur(28px) saturate(190%);
   -webkit-backdrop-filter: blur(28px) saturate(190%);
+  backdrop-filter: blur(28px) saturate(190%);
   border: 1px solid var(--glass-edge);
   box-shadow:
     var(--glass-shadow),
@@ -135,8 +135,8 @@ footer[id] {
   position: relative;
   isolation: isolate;
   background: var(--glass-bg);
-  backdrop-filter: blur(18px) saturate(165%);
   -webkit-backdrop-filter: blur(18px) saturate(165%);
+  backdrop-filter: blur(18px) saturate(165%);
   border: 1px solid var(--glass-edge);
   box-shadow:
     var(--glass-shadow),

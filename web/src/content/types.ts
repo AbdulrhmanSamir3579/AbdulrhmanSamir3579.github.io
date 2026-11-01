@@ -15,14 +15,17 @@ export type ProjectSlug =
 export type OrgKey = "expanders360" | "next" | "etolv" | "skyapps" | "personal";
 export type ExperienceId = "expanders360" | "next" | "etolv";
 
-export type LinkKind = "live" | "site" | "demo" | "preview";
+export type LinkKind = "suite" | "live" | "site" | "demo" | "preview";
 export type ProjectLink = { kind: LinkKind; href: string };
 
 export type ProjectBadge = "private" | "contribution";
 
 export type MediaAsset = {
   id: string;
+  /** default "image"; videos are MP4 with a WebP poster */
+  type?: "image" | "video";
   src: string;
+  poster?: string;
   width: number;
   height: number;
   device: "desktop" | "mobile";
@@ -85,7 +88,7 @@ export type ProjectCardView = {
   period: string;
   href: string;
   media: MediaView[];
-  partNames?: string[];
+  parts?: { id: string; name: string }[];
 };
 
 export type ExperienceMeta = {
@@ -140,6 +143,8 @@ export type UiStrings = {
     showSlide: string;
     /** "{n} screenshots · swipe or use the arrow keys" */
     hint: string;
+    /** badge on video thumbnails / slides */
+    video: string;
   };
   caseStudy: {
     read: string;

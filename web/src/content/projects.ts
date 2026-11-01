@@ -10,6 +10,7 @@ export const projectMeta: ProjectMeta[] = [
     end: "present",
     stack: ["Angular 22", "Nx", "Signals", "RxJS", "TypeScript", "SSR", "SEO / GEO"],
     links: [
+      { kind: "suite", href: "https://360-technologies.com/en/" },
       { kind: "live", href: "https://client.comply360.tech/auth/sign-in" },
       { kind: "site", href: "https://comply360.tech/" },
     ],
@@ -27,7 +28,7 @@ export const projectMeta: ProjectMeta[] = [
         id: "360-technologies",
         name: "360 ecosystem",
         contribution: "core",
-        links: [{ kind: "site", href: "https://360-technologies.com/en/" }],
+        links: [{ kind: "suite", href: "https://360-technologies.com/en/" }],
       },
       {
         id: "signals360",
@@ -76,9 +77,9 @@ export const projectMeta: ProjectMeta[] = [
     kind: "earlier",
     orgKey: "etolv",
     start: "2022-10",
-    end: "2024-08",
-    stack: ["Angular 8 → 19", "TypeScript", "RxJS", "Python"],
-    links: [],
+    end: "present",
+    stack: ["Angular 8 → 18", "TypeScript", "RxJS", "Chart.js", "Python"],
+    links: [{ kind: "live", href: "https://portal.etolv.net/newportal/login" }],
   },
   {
     slug: "film-sa-red-sea",
@@ -86,7 +87,7 @@ export const projectMeta: ProjectMeta[] = [
     orgKey: "next",
     start: "2024-08",
     end: "2025-12",
-    stack: ["Angular 18–19", "SCSS", "Animations"],
+    stack: ["Angular 18–19", "Angular Animations", "SCSS"],
     links: [],
   },
   {

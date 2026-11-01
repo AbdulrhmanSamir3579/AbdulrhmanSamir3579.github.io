@@ -85,15 +85,16 @@ export function ProjectCard({ project }: { project: ProjectCardView }) {
             {project.summary}
           </p>
 
-          {project.partNames?.length ? (
+          {project.parts?.length ? (
             <ul className="mt-4 flex flex-wrap gap-2">
-              {project.partNames.map((n) => (
-                <li
-                  key={n}
-                  dir="ltr"
-                  className="glass-surface rounded-full px-2.5 py-0.5 text-xs font-semibold text-[var(--foreground)]"
-                >
-                  {n}
+              {project.parts.map((part) => (
+                <li key={part.id} dir="ltr">
+                  <Link
+                    href={`${project.href}#${part.id}`}
+                    className="btn-secondary glass-surface inline-flex rounded-full px-2.5 py-0.5 text-xs font-semibold text-[var(--foreground)]"
+                  >
+                    {part.name}
+                  </Link>
                 </li>
               ))}
             </ul>
