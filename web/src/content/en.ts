@@ -4,22 +4,22 @@ export const en = {
   meta: {
     title: "Abdulrahman Samir · Senior Frontend Engineer",
     description:
-      "Senior Frontend Engineer specializing in enterprise ERP, FinTech and analytics platforms. Angular expert (v8–22) with production NestJS backend experience. Selected work: Comply360, the SkyApps ERP, and more.",
+      "Senior Frontend Engineer with full-stack capability, specializing in enterprise ERP, FinTech and analytics platforms: frontend architecture plus production Node.js/NestJS backends. Selected work: Comply360, the SkyApps ERP, and more.",
     ogAlt: "Abdulrahman Samir — Senior Frontend Engineer portfolio",
   },
   person: {
     name: "Abdulrahman Samir",
     alternateName: "عبدالرحمن سمير",
     jobTitle: "Senior Frontend Engineer",
-    headerTagline: "Senior Frontend Engineer · Angular · NestJS",
+    headerTagline: "Senior Frontend Engineer · Full-Stack Capable",
     location: "Cairo, Egypt",
   },
   hero: {
-    badge: "Angular expert · ERP & financial systems · data visualization",
+    badge: "Frontend architecture · ERP & financial systems · data visualization",
     eyebrow: "Portfolio · Senior Frontend Engineer",
     title: "Enterprise products, from the first screen to the API",
     lead:
-      "I specialize in enterprise ERP, FinTech and analytics platforms across LegalTech, GovTech and Tourism. I own frontend architecture in Angular, build production backends in NestJS when the product needs it, and treat performance, accessibility and SEO as part of the job.",
+      "I specialize in enterprise ERP, FinTech and analytics platforms across LegalTech, GovTech and Tourism. I own frontend architecture end to end and build production backends in Node.js/NestJS when the product needs it, with .NET Core experience as well.",
     ctaWork: "See selected work",
     ctaContact: "Contact",
     panelKicker: "What I focus on",
@@ -36,9 +36,9 @@ export const en = {
           "Wizard, dynamic-flow and templating engines so new workflows ship as configuration across a whole product suite.",
       },
       {
-        title: "Quality you can measure",
+        title: "Frontend-led full stack",
         detail:
-          "Lighthouse and accessibility audits, Core Web Vitals, and SEO plus generative-engine optimization for AI search.",
+          "Production APIs in Node.js/NestJS with Prisma and PostgreSQL when the product needs them, plus .NET Core experience.",
       },
     ],
     panelLink: "View skills",
@@ -64,22 +64,20 @@ export const en = {
           "Angular (v8–22: Signals, NgRx, RxJS, SSR), TypeScript, Nx monorepos, SCSS architecture",
       },
       {
-        name: "Backend (production)",
-        items: "Node.js — NestJS, Express; REST API design, WebSockets, Prisma ORM",
+        name: "Backend",
+        items: "Node.js — NestJS, Express; REST APIs, WebSockets, Prisma, PostgreSQL, Redis · .NET Core",
       },
       {
         name: "Proficient",
-        items: "React, Next.js (SSR/SSG, static export), next-intl, TanStack Query, Tailwind CSS",
+        items: "React, Next.js (SSR/SSG, static export), TanStack Query, Tailwind CSS",
       },
       {
-        name: "Data & integrations",
-        items:
-          "PostgreSQL, Redis + BullMQ · payments (Stripe, Paymob) · Server-Sent Events · JWT auth · Google Maps and OpenStreetMap",
+        name: "Integrations",
+        items: "Payments (Stripe, Paymob) · Server-Sent Events · JWT auth · Google Maps and OpenStreetMap",
       },
       {
-        name: "Testing, delivery & performance",
-        items:
-          "Vitest, Jest, Playwright · GitHub Actions, Docker · zoneless + OnPush, code splitting, lazy loading · Lighthouse and axe audits, SEO & GEO/AEO",
+        name: "Testing & delivery",
+        items: "Vitest, Jest, Playwright · GitHub Actions",
       },
     ],
     domain: {
@@ -106,19 +104,6 @@ export const en = {
         {
           title: "Bilingual, RTL-first products",
           body: "Arabic and English interfaces where right-to-left layout, typography and formatting are designed in from day one.",
-        },
-      ],
-    },
-    extras: {
-      label: "Also in the toolbox",
-      items: [
-        {
-          name: "AI-assisted engineering",
-          detail: "Claude Code and Cursor in my daily workflow — for refactors, reviews and tests, with a human in charge of the design.",
-        },
-        {
-          name: "Working knowledge",
-          detail: ".NET Core with Entity Framework. I can read and contribute; I don’t present it as a production specialty.",
         },
       ],
     },

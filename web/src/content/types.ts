@@ -201,7 +201,7 @@ export type SiteContent = {
       lead: string;
       bullets: { title: string; body: string }[];
     };
-    extras: { label: string; items: { name: string; detail: string }[] };
+    extras?: { label: string; items: { name: string; detail: string }[] };
   };
   experience: {
     kicker: string;

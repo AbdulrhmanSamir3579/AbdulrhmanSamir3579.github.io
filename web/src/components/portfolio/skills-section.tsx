@@ -111,6 +111,7 @@ export function SkillsSection({ skills }: { skills: SiteContent["skills"] }) {
             </motion.div>
           </motion.div>
 
+          {skills.extras && skills.extras.items.length > 0 && (
           <motion.div
             variants={containerStagger(!!reduce, 0.1, 0.08)}
             initial="hidden"
@@ -140,6 +141,7 @@ export function SkillsSection({ skills }: { skills: SiteContent["skills"] }) {
               </PointerGlow>
             </motion.div>
           </motion.div>
+          )}
         </div>
       </motion.div>
     </section>

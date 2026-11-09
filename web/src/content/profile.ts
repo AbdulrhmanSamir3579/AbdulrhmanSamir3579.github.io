@@ -30,7 +30,6 @@ export const techStack: TechBrand[] = [
   { name: "Tailwind CSS", iconSlug: "tailwindcss" },
   { name: "Apache ECharts", iconSlug: "apacheecharts" },
   { name: "Chart.js", iconSlug: "chartdotjs" },
-  { name: "Docker", iconSlug: "docker" },
   { name: "GitHub Actions", iconSlug: "githubactions" },
   { name: "Vitest", iconSlug: "vitest" },
   { name: "Figma", iconSlug: "figma" },
