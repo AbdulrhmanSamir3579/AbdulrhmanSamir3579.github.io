@@ -19,7 +19,7 @@ export const en = {
     eyebrow: "Portfolio · Senior Frontend Engineer",
     title: "Enterprise products, from the first screen to the API",
     lead:
-      "I specialize in enterprise ERP, FinTech and analytics platforms across LegalTech, GovTech and Tourism. I own frontend architecture end to end and build production backends in Node.js/NestJS when the product needs it, with working knowledge of .NET Core.",
+      "I specialize in enterprise ERP, FinTech and analytics platforms across LegalTech, GovTech and Tourism. I own frontend architecture end to end and build production backends in Node.js/NestJS when the product needs it, with .NET Core experience as well.",
     ctaWork: "See selected work",
     ctaContact: "Contact",
     panelKicker: "What I focus on",
@@ -38,7 +38,7 @@ export const en = {
       {
         title: "Frontend-led full stack",
         detail:
-          "Production APIs in Node.js/NestJS with Prisma and PostgreSQL when the product needs them, plus working knowledge of .NET Core.",
+          "Production APIs in Node.js/NestJS with Prisma and PostgreSQL when the product needs them, plus .NET Core experience.",
       },
     ],
     panelLink: "View skills",
@@ -65,7 +65,7 @@ export const en = {
       },
       {
         name: "Backend",
-        items: "Node.js — NestJS, Express; REST APIs, WebSockets, Prisma, PostgreSQL, Redis · .NET Core (working knowledge)",
+        items: "Node.js — NestJS, Express; REST APIs, WebSockets, Prisma, PostgreSQL, Redis · .NET Core",
       },
       {
         name: "Proficient",

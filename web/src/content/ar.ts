@@ -23,7 +23,7 @@ export const ar = {
     eyebrow: "معرض الأعمال · مهندس واجهات أمامية أول",
     title: "منتجات مؤسسية متكاملة، من الواجهة حتى الخادم",
     lead:
-      "أتخصص في أنظمة ERP والتقنيات المالية ومنصات التحليلات في مجالات التقنية القانونية والحكومية والسياحة. أتولى معمارية الواجهات الأمامية من البداية إلى النهاية، وأبني خوادم إنتاجية بـ Node.js وNestJS عندما يحتاج المنتج ذلك، مع معرفة عملية بـ ⁦.NET Core⁩.",
+      "أتخصص في أنظمة ERP والتقنيات المالية ومنصات التحليلات في مجالات التقنية القانونية والحكومية والسياحة. أتولى معمارية الواجهات الأمامية من البداية إلى النهاية، وأبني خوادم إنتاجية بـ Node.js وNestJS عندما يحتاج المنتج ذلك، مع خبرة في ⁦.NET Core⁩ أيضًا.",
     ctaWork: "استعرض أعمالي",
     ctaContact: "تواصل معي",
     panelKicker: "ما أركّز عليه",
@@ -42,7 +42,7 @@ export const ar = {
       {
         title: "Full-Stack بقيادة الواجهة الأمامية",
         detail:
-          "واجهات برمجية إنتاجية بـ Node.js وNestJS مع Prisma وPostgreSQL عندما يحتاجها المنتج، مع معرفة عملية بـ ⁦.NET Core⁩.",
+          "واجهات برمجية إنتاجية بـ Node.js وNestJS مع Prisma وPostgreSQL عندما يحتاجها المنتج، مع خبرة في ⁦.NET Core⁩.",
       },
     ],
     panelLink: "استعرض المهارات",
@@ -68,7 +68,7 @@ export const ar = {
       },
       {
         name: "الخوادم",
-        items: "Node.js — NestJS وExpress؛ واجهات REST، وWebSockets، وPrisma، وPostgreSQL، وRedis · ⁦.NET Core⁩ (معرفة عملية)",
+        items: "Node.js — NestJS وExpress؛ واجهات REST، وWebSockets، وPrisma، وPostgreSQL، وRedis · ⁦.NET Core⁩",
       },
       {
         name: "إتقان",
