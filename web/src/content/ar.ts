@@ -8,22 +8,22 @@ export const ar = {
   meta: {
     title: "عبدالرحمن سمير · مهندس واجهات أمامية أول",
     description:
-      "مهندس واجهات أمامية أول متخصص في أنظمة ERP والتقنيات المالية ومنصات التحليلات. خبير Angular (من الإصدار 8 إلى 22) مع خبرة إنتاجية في تطوير الخوادم باستخدام NestJS. من أعمالي: Comply360 ونظام SkyApps ERP وغيرها.",
+      "مهندس واجهات أمامية أول بخبرة Full-Stack، متخصص في أنظمة ERP والتقنيات المالية ومنصات التحليلات: معمارية الواجهات الأمامية مع خوادم إنتاجية بـ Node.js وNestJS. من أعمالي: Comply360 ونظام SkyApps ERP وغيرها.",
     ogAlt: "عبدالرحمن سمير — معرض أعمال مهندس واجهات أمامية أول",
   },
   person: {
     name: "عبدالرحمن سمير",
     alternateName: "Abdulrahman Samir",
     jobTitle: "مهندس واجهات أمامية أول",
-    headerTagline: "مهندس واجهات أمامية أول · Angular · NestJS",
+    headerTagline: "مهندس واجهات أمامية أول · بخبرة Full-Stack",
     location: "القاهرة، مصر",
   },
   hero: {
-    badge: "خبير Angular · أنظمة ERP والأنظمة المالية · تصوير البيانات",
+    badge: "معمارية الواجهات الأمامية · أنظمة ERP والأنظمة المالية · تصوير البيانات",
     eyebrow: "معرض الأعمال · مهندس واجهات أمامية أول",
     title: "منتجات مؤسسية متكاملة، من الواجهة حتى الخادم",
     lead:
-      "أتخصص في أنظمة ERP والتقنيات المالية ومنصات التحليلات في مجالات التقنية القانونية والحكومية والسياحة. أتولى معمارية الواجهات الأمامية بـ Angular، وأبني خوادم إنتاجية بـ NestJS عندما يحتاج المنتج ذلك، وأتعامل مع الأداء وإتاحة الوصول وSEO كجزء أساسي من العمل.",
+      "أتخصص في أنظمة ERP والتقنيات المالية ومنصات التحليلات في مجالات التقنية القانونية والحكومية والسياحة. أتولى معمارية الواجهات الأمامية من البداية إلى النهاية، وأبني خوادم إنتاجية بـ Node.js وNestJS عندما يحتاج المنتج ذلك، مع معرفة عملية بـ ⁦.NET Core⁩.",
     ctaWork: "استعرض أعمالي",
     ctaContact: "تواصل معي",
     panelKicker: "ما أركّز عليه",
@@ -40,9 +40,9 @@ export const ar = {
           "محركات للمعالجات المرحلية والتدفقات الديناميكية والقوالب، بحيث تُطلق مسارات العمل الجديدة كإعدادات عبر مجموعة منتجات كاملة.",
       },
       {
-        title: "جودة قابلة للقياس",
+        title: "Full-Stack بقيادة الواجهة الأمامية",
         detail:
-          "فحوصات Lighthouse وإتاحة الوصول، ومؤشرات Core Web Vitals، وتحسين محركات البحث ومحركات الإجابة بالذكاء الاصطناعي (GEO/AEO).",
+          "واجهات برمجية إنتاجية بـ Node.js وNestJS مع Prisma وPostgreSQL عندما يحتاجها المنتج، مع معرفة عملية بـ ⁦.NET Core⁩.",
       },
     ],
     panelLink: "استعرض المهارات",
@@ -67,22 +67,20 @@ export const ar = {
           "Angular (الإصدارات 8–22: Signals وNgRx وRxJS وSSR)، TypeScript، مستودعات Nx، معمارية SCSS",
       },
       {
-        name: "الخوادم (في الإنتاج)",
-        items: "Node.js — NestJS وExpress؛ تصميم واجهات REST، وWebSockets، وPrisma ORM",
+        name: "الخوادم",
+        items: "Node.js — NestJS وExpress؛ واجهات REST، وWebSockets، وPrisma، وPostgreSQL، وRedis · ⁦.NET Core⁩ (معرفة عملية)",
       },
       {
         name: "إتقان",
-        items: "React، Next.js (SSR/SSG والتصدير الثابت)، next-intl، TanStack Query، Tailwind CSS",
+        items: "React، Next.js (SSR/SSG والتصدير الثابت)، TanStack Query، Tailwind CSS",
       },
       {
-        name: "البيانات والتكاملات",
-        items:
-          "PostgreSQL وRedis مع BullMQ · المدفوعات (Stripe وPaymob) · Server-Sent Events · مصادقة JWT · خرائط Google وOpenStreetMap",
+        name: "التكاملات",
+        items: "المدفوعات (Stripe وPaymob) · Server-Sent Events · مصادقة JWT · خرائط Google وOpenStreetMap",
       },
       {
-        name: "الاختبار والتسليم والأداء",
-        items:
-          "Vitest وJest وPlaywright · GitHub Actions وDocker · العمل دون zone.js مع OnPush، وتقسيم الكود والتحميل الكسول · فحوصات Lighthouse وaxe، وSEO وGEO/AEO",
+        name: "الاختبار والتسليم",
+        items: "Vitest وJest وPlaywright · GitHub Actions",
       },
     ],
     domain: {
@@ -109,20 +107,6 @@ export const ar = {
         {
           title: "منتجات ثنائية اللغة تبدأ من اليمين",
           body: "واجهات عربية وإنجليزية يُصمَّم فيها الاتجاه من اليمين لليسار والطباعة والتنسيق من اليوم الأول.",
-        },
-      ],
-    },
-    extras: {
-      label: "أدوات أخرى",
-      items: [
-        {
-          name: "الهندسة بمساعدة الذكاء الاصطناعي",
-          detail: "أستخدم Claude Code وCursor يوميًا في إعادة الهيكلة والمراجعة والاختبارات، مع بقاء قرارات التصميم بيد المهندس.",
-        },
-        {
-          name: "معرفة عملية",
-          detail:
-            "⁦.NET Core⁩ مع Entity Framework. أستطيع القراءة والمساهمة فيه، لكنني لا أقدمه كتخصص إنتاجي.",
         },
       ],
     },

@@ -59,7 +59,7 @@ export const projectMeta: ProjectMeta[] = [
     orgKey: "skyapps",
     start: "2026-09",
     end: "present",
-    stack: ["Next.js 16", "React 19", "next-intl", "Tailwind CSS", "Static export", "JSON-LD"],
+    stack: ["Next.js 16", "React 19", "Tailwind CSS", "Static export", "JSON-LD"],
     links: [{ kind: "site", href: "https://website.skyapps.me/" }],
   },
   {
@@ -68,7 +68,7 @@ export const projectMeta: ProjectMeta[] = [
     orgKey: "personal",
     start: "2026-10",
     end: "present",
-    stack: ["NestJS 11", "Prisma", "PostgreSQL", "Redis + BullMQ", "Next.js 15", "TanStack Query", "Turborepo"],
+    stack: ["NestJS 11", "Prisma", "PostgreSQL", "Redis", "Next.js 15", "TanStack Query", "Turborepo"],
     links: [],
     badge: "private",
   },
